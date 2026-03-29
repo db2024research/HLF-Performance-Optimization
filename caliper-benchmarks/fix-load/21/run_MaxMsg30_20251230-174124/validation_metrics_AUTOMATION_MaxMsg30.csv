@@ -1,0 +1,5 @@
+Peer,gossip_privdata_validation_duration (s),ledger_blockstorage_commit_time (s),ledger_statedb_commit_time (s),gossip_state_commit_duration (s)
+peer0-org1,0.010287865,0.002171975,0.015881927,0.033086639
+peer1-org1,0.009536296,0.002040981,0.000984907,0.016601765
+peer0-org2,0.009986718,0.002198981,0.016726275,0.033491577
+peer1-org2,0.009625773,0.002331409,0.001039377,0.017288417

@@ -1,0 +1,6 @@
+| Peer | gossip_privdata_validation_duration (s) | ledger_blockstorage_commit_time (s) | ledger_statedb_commit_time (s) | gossip_state_commit_duration (s) |
+|---|---:|---:|---:|---:|
+| peer0-org1 | 0.007340275 | 0.002409492 | 0.016470585 | 0.029953491 |
+| peer1-org1 | 0.007249128 | 0.002516507 | 0.001294428 | 0.014340963 |
+| peer0-org2 | 0.007240641 | 0.002543049 | 0.016485589 | 0.029821874 |
+| peer1-org2 | 0.007405601 | 0.002546061 | 0.001305507 | 0.014861395 |

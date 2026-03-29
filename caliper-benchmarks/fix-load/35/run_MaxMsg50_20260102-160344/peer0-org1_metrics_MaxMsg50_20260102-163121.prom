@@ -1,0 +1,1500 @@
+# HELP chaincode_launch_duration The time to launch a chaincode.
+# TYPE chaincode_launch_duration histogram
+chaincode_launch_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",success="true",le="0.005"} 0
+chaincode_launch_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",success="true",le="0.01"} 0
+chaincode_launch_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",success="true",le="0.025"} 0
+chaincode_launch_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",success="true",le="0.05"} 0
+chaincode_launch_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",success="true",le="0.1"} 0
+chaincode_launch_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",success="true",le="0.25"} 0
+chaincode_launch_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",success="true",le="0.5"} 0
+chaincode_launch_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",success="true",le="1"} 0
+chaincode_launch_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",success="true",le="2.5"} 2
+chaincode_launch_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",success="true",le="5"} 2
+chaincode_launch_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",success="true",le="10"} 2
+chaincode_launch_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",success="true",le="+Inf"} 2
+chaincode_launch_duration_sum{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",success="true"} 3.031760064
+chaincode_launch_duration_count{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",success="true"} 2
+# HELP chaincode_shim_request_duration The time to complete chaincode shim requests.
+# TYPE chaincode_shim_request_duration histogram
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_PRIVATE_DATA_HASH",le="0.005"} 8
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_PRIVATE_DATA_HASH",le="0.01"} 8
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_PRIVATE_DATA_HASH",le="0.025"} 8
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_PRIVATE_DATA_HASH",le="0.05"} 8
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_PRIVATE_DATA_HASH",le="0.1"} 8
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_PRIVATE_DATA_HASH",le="0.25"} 8
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_PRIVATE_DATA_HASH",le="0.5"} 8
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_PRIVATE_DATA_HASH",le="1"} 8
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_PRIVATE_DATA_HASH",le="2.5"} 8
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_PRIVATE_DATA_HASH",le="5"} 8
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_PRIVATE_DATA_HASH",le="10"} 8
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_PRIVATE_DATA_HASH",le="+Inf"} 8
+chaincode_shim_request_duration_sum{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_PRIVATE_DATA_HASH"} 0.006487747000000001
+chaincode_shim_request_duration_count{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_PRIVATE_DATA_HASH"} 8
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_STATE",le="0.005"} 6
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_STATE",le="0.01"} 6
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_STATE",le="0.025"} 6
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_STATE",le="0.05"} 7
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_STATE",le="0.1"} 7
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_STATE",le="0.25"} 7
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_STATE",le="0.5"} 7
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_STATE",le="1"} 7
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_STATE",le="2.5"} 7
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_STATE",le="5"} 7
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_STATE",le="10"} 7
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_STATE",le="+Inf"} 7
+chaincode_shim_request_duration_sum{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_STATE"} 0.030132014
+chaincode_shim_request_duration_count{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_STATE"} 7
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="PUT_STATE",le="0.005"} 11
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="PUT_STATE",le="0.01"} 11
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="PUT_STATE",le="0.025"} 11
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="PUT_STATE",le="0.05"} 11
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="PUT_STATE",le="0.1"} 11
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="PUT_STATE",le="0.25"} 11
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="PUT_STATE",le="0.5"} 11
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="PUT_STATE",le="1"} 11
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="PUT_STATE",le="2.5"} 11
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="PUT_STATE",le="5"} 11
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="PUT_STATE",le="10"} 11
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="PUT_STATE",le="+Inf"} 11
+chaincode_shim_request_duration_sum{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="PUT_STATE"} 6.4694e-05
+chaincode_shim_request_duration_count{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="PUT_STATE"} 11
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="GET_STATE_BY_RANGE",le="0.005"} 0
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="GET_STATE_BY_RANGE",le="0.01"} 0
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="GET_STATE_BY_RANGE",le="0.025"} 0
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="GET_STATE_BY_RANGE",le="0.05"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="GET_STATE_BY_RANGE",le="0.1"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="GET_STATE_BY_RANGE",le="0.25"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="GET_STATE_BY_RANGE",le="0.5"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="GET_STATE_BY_RANGE",le="1"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="GET_STATE_BY_RANGE",le="2.5"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="GET_STATE_BY_RANGE",le="5"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="GET_STATE_BY_RANGE",le="10"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="GET_STATE_BY_RANGE",le="+Inf"} 1
+chaincode_shim_request_duration_sum{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="GET_STATE_BY_RANGE"} 0.02556715
+chaincode_shim_request_duration_count{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="GET_STATE_BY_RANGE"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="PUT_STATE",le="0.005"} 484
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="PUT_STATE",le="0.01"} 484
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="PUT_STATE",le="0.025"} 484
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="PUT_STATE",le="0.05"} 484
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="PUT_STATE",le="0.1"} 484
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="PUT_STATE",le="0.25"} 484
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="PUT_STATE",le="0.5"} 484
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="PUT_STATE",le="1"} 484
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="PUT_STATE",le="2.5"} 484
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="PUT_STATE",le="5"} 484
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="PUT_STATE",le="10"} 484
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="PUT_STATE",le="+Inf"} 484
+chaincode_shim_request_duration_sum{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="PUT_STATE"} 0.03712366199999999
+chaincode_shim_request_duration_count{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="PUT_STATE"} 484
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="QUERY_STATE_CLOSE",le="0.005"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="QUERY_STATE_CLOSE",le="0.01"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="QUERY_STATE_CLOSE",le="0.025"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="QUERY_STATE_CLOSE",le="0.05"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="QUERY_STATE_CLOSE",le="0.1"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="QUERY_STATE_CLOSE",le="0.25"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="QUERY_STATE_CLOSE",le="0.5"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="QUERY_STATE_CLOSE",le="1"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="QUERY_STATE_CLOSE",le="2.5"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="QUERY_STATE_CLOSE",le="5"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="QUERY_STATE_CLOSE",le="10"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="QUERY_STATE_CLOSE",le="+Inf"} 1
+chaincode_shim_request_duration_sum{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="QUERY_STATE_CLOSE"} 5.7098e-05
+chaincode_shim_request_duration_count{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="QUERY_STATE_CLOSE"} 1
+# HELP chaincode_shim_requests_completed The number of chaincode shim requests completed.
+# TYPE chaincode_shim_requests_completed counter
+chaincode_shim_requests_completed{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_PRIVATE_DATA_HASH"} 8
+chaincode_shim_requests_completed{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_STATE"} 7
+chaincode_shim_requests_completed{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="PUT_STATE"} 11
+chaincode_shim_requests_completed{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="GET_STATE_BY_RANGE"} 1
+chaincode_shim_requests_completed{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="PUT_STATE"} 484
+chaincode_shim_requests_completed{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",success="true",type="QUERY_STATE_CLOSE"} 1
+# HELP chaincode_shim_requests_received The number of chaincode shim requests received.
+# TYPE chaincode_shim_requests_received counter
+chaincode_shim_requests_received{chaincode="_lifecycle.syscc",channel="mychannel",type="GET_PRIVATE_DATA_HASH"} 8
+chaincode_shim_requests_received{chaincode="_lifecycle.syscc",channel="mychannel",type="GET_STATE"} 7
+chaincode_shim_requests_received{chaincode="_lifecycle.syscc",channel="mychannel",type="PUT_STATE"} 11
+chaincode_shim_requests_received{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",type="GET_STATE_BY_RANGE"} 1
+chaincode_shim_requests_received{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",type="PUT_STATE"} 484
+chaincode_shim_requests_received{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",channel="mychannel",type="QUERY_STATE_CLOSE"} 1
+# HELP couchdb_processing_time Time taken in seconds for the function to complete request to CouchDB
+# TYPE couchdb_processing_time histogram
+couchdb_processing_time_bucket{database="",function_name="IsEmpty",result="200",le="0.005"} 1
+couchdb_processing_time_bucket{database="",function_name="IsEmpty",result="200",le="0.01"} 1
+couchdb_processing_time_bucket{database="",function_name="IsEmpty",result="200",le="0.025"} 1
+couchdb_processing_time_bucket{database="",function_name="IsEmpty",result="200",le="0.05"} 1
+couchdb_processing_time_bucket{database="",function_name="IsEmpty",result="200",le="0.1"} 1
+couchdb_processing_time_bucket{database="",function_name="IsEmpty",result="200",le="0.25"} 1
+couchdb_processing_time_bucket{database="",function_name="IsEmpty",result="200",le="0.5"} 1
+couchdb_processing_time_bucket{database="",function_name="IsEmpty",result="200",le="1"} 1
+couchdb_processing_time_bucket{database="",function_name="IsEmpty",result="200",le="2.5"} 1
+couchdb_processing_time_bucket{database="",function_name="IsEmpty",result="200",le="5"} 1
+couchdb_processing_time_bucket{database="",function_name="IsEmpty",result="200",le="10"} 1
+couchdb_processing_time_bucket{database="",function_name="IsEmpty",result="200",le="+Inf"} 1
+couchdb_processing_time_sum{database="",function_name="IsEmpty",result="200"} 0.004682513
+couchdb_processing_time_count{database="",function_name="IsEmpty",result="200"} 1
+couchdb_processing_time_bucket{database="",function_name="VerifyCouchConfig",result="200",le="0.005"} 0
+couchdb_processing_time_bucket{database="",function_name="VerifyCouchConfig",result="200",le="0.01"} 0
+couchdb_processing_time_bucket{database="",function_name="VerifyCouchConfig",result="200",le="0.025"} 0
+couchdb_processing_time_bucket{database="",function_name="VerifyCouchConfig",result="200",le="0.05"} 0
+couchdb_processing_time_bucket{database="",function_name="VerifyCouchConfig",result="200",le="0.1"} 0
+couchdb_processing_time_bucket{database="",function_name="VerifyCouchConfig",result="200",le="0.25"} 0
+couchdb_processing_time_bucket{database="",function_name="VerifyCouchConfig",result="200",le="0.5"} 1
+couchdb_processing_time_bucket{database="",function_name="VerifyCouchConfig",result="200",le="1"} 1
+couchdb_processing_time_bucket{database="",function_name="VerifyCouchConfig",result="200",le="2.5"} 1
+couchdb_processing_time_bucket{database="",function_name="VerifyCouchConfig",result="200",le="5"} 1
+couchdb_processing_time_bucket{database="",function_name="VerifyCouchConfig",result="200",le="10"} 1
+couchdb_processing_time_bucket{database="",function_name="VerifyCouchConfig",result="200",le="+Inf"} 1
+couchdb_processing_time_sum{database="",function_name="VerifyCouchConfig",result="200"} 0.403200806
+couchdb_processing_time_count{database="",function_name="VerifyCouchConfig",result="200"} 1
+couchdb_processing_time_bucket{database="_replicator",function_name="ApplyDatabaseSecurity",result="200",le="0.005"} 0
+couchdb_processing_time_bucket{database="_replicator",function_name="ApplyDatabaseSecurity",result="200",le="0.01"} 1
+couchdb_processing_time_bucket{database="_replicator",function_name="ApplyDatabaseSecurity",result="200",le="0.025"} 1
+couchdb_processing_time_bucket{database="_replicator",function_name="ApplyDatabaseSecurity",result="200",le="0.05"} 1
+couchdb_processing_time_bucket{database="_replicator",function_name="ApplyDatabaseSecurity",result="200",le="0.1"} 1
+couchdb_processing_time_bucket{database="_replicator",function_name="ApplyDatabaseSecurity",result="200",le="0.25"} 1
+couchdb_processing_time_bucket{database="_replicator",function_name="ApplyDatabaseSecurity",result="200",le="0.5"} 1
+couchdb_processing_time_bucket{database="_replicator",function_name="ApplyDatabaseSecurity",result="200",le="1"} 1
+couchdb_processing_time_bucket{database="_replicator",function_name="ApplyDatabaseSecurity",result="200",le="2.5"} 1
+couchdb_processing_time_bucket{database="_replicator",function_name="ApplyDatabaseSecurity",result="200",le="5"} 1
+couchdb_processing_time_bucket{database="_replicator",function_name="ApplyDatabaseSecurity",result="200",le="10"} 1
+couchdb_processing_time_bucket{database="_replicator",function_name="ApplyDatabaseSecurity",result="200",le="+Inf"} 1
+couchdb_processing_time_sum{database="_replicator",function_name="ApplyDatabaseSecurity",result="200"} 0.00781689
+couchdb_processing_time_count{database="_replicator",function_name="ApplyDatabaseSecurity",result="200"} 1
+couchdb_processing_time_bucket{database="_replicator",function_name="CreateDatabaseIfNotExist",result="201",le="0.005"} 1
+couchdb_processing_time_bucket{database="_replicator",function_name="CreateDatabaseIfNotExist",result="201",le="0.01"} 1
+couchdb_processing_time_bucket{database="_replicator",function_name="CreateDatabaseIfNotExist",result="201",le="0.025"} 1
+couchdb_processing_time_bucket{database="_replicator",function_name="CreateDatabaseIfNotExist",result="201",le="0.05"} 1
+couchdb_processing_time_bucket{database="_replicator",function_name="CreateDatabaseIfNotExist",result="201",le="0.1"} 1
+couchdb_processing_time_bucket{database="_replicator",function_name="CreateDatabaseIfNotExist",result="201",le="0.25"} 1
+couchdb_processing_time_bucket{database="_replicator",function_name="CreateDatabaseIfNotExist",result="201",le="0.5"} 1
+couchdb_processing_time_bucket{database="_replicator",function_name="CreateDatabaseIfNotExist",result="201",le="1"} 1
+couchdb_processing_time_bucket{database="_replicator",function_name="CreateDatabaseIfNotExist",result="201",le="2.5"} 1
+couchdb_processing_time_bucket{database="_replicator",function_name="CreateDatabaseIfNotExist",result="201",le="5"} 1
+couchdb_processing_time_bucket{database="_replicator",function_name="CreateDatabaseIfNotExist",result="201",le="10"} 1
+couchdb_processing_time_bucket{database="_replicator",function_name="CreateDatabaseIfNotExist",result="201",le="+Inf"} 1
+couchdb_processing_time_sum{database="_replicator",function_name="CreateDatabaseIfNotExist",result="201"} 0.004932089
+couchdb_processing_time_count{database="_replicator",function_name="CreateDatabaseIfNotExist",result="201"} 1
+couchdb_processing_time_bucket{database="_replicator",function_name="GetDatabaseInfo",result="404",le="0.005"} 1
+couchdb_processing_time_bucket{database="_replicator",function_name="GetDatabaseInfo",result="404",le="0.01"} 1
+couchdb_processing_time_bucket{database="_replicator",function_name="GetDatabaseInfo",result="404",le="0.025"} 1
+couchdb_processing_time_bucket{database="_replicator",function_name="GetDatabaseInfo",result="404",le="0.05"} 1
+couchdb_processing_time_bucket{database="_replicator",function_name="GetDatabaseInfo",result="404",le="0.1"} 1
+couchdb_processing_time_bucket{database="_replicator",function_name="GetDatabaseInfo",result="404",le="0.25"} 1
+couchdb_processing_time_bucket{database="_replicator",function_name="GetDatabaseInfo",result="404",le="0.5"} 1
+couchdb_processing_time_bucket{database="_replicator",function_name="GetDatabaseInfo",result="404",le="1"} 1
+couchdb_processing_time_bucket{database="_replicator",function_name="GetDatabaseInfo",result="404",le="2.5"} 1
+couchdb_processing_time_bucket{database="_replicator",function_name="GetDatabaseInfo",result="404",le="5"} 1
+couchdb_processing_time_bucket{database="_replicator",function_name="GetDatabaseInfo",result="404",le="10"} 1
+couchdb_processing_time_bucket{database="_replicator",function_name="GetDatabaseInfo",result="404",le="+Inf"} 1
+couchdb_processing_time_sum{database="_replicator",function_name="GetDatabaseInfo",result="404"} 0.001919138
+couchdb_processing_time_count{database="_replicator",function_name="GetDatabaseInfo",result="404"} 1
+couchdb_processing_time_bucket{database="_users",function_name="CreateDatabaseIfNotExist",result="201",le="0.005"} 0
+couchdb_processing_time_bucket{database="_users",function_name="CreateDatabaseIfNotExist",result="201",le="0.01"} 0
+couchdb_processing_time_bucket{database="_users",function_name="CreateDatabaseIfNotExist",result="201",le="0.025"} 1
+couchdb_processing_time_bucket{database="_users",function_name="CreateDatabaseIfNotExist",result="201",le="0.05"} 1
+couchdb_processing_time_bucket{database="_users",function_name="CreateDatabaseIfNotExist",result="201",le="0.1"} 1
+couchdb_processing_time_bucket{database="_users",function_name="CreateDatabaseIfNotExist",result="201",le="0.25"} 1
+couchdb_processing_time_bucket{database="_users",function_name="CreateDatabaseIfNotExist",result="201",le="0.5"} 1
+couchdb_processing_time_bucket{database="_users",function_name="CreateDatabaseIfNotExist",result="201",le="1"} 1
+couchdb_processing_time_bucket{database="_users",function_name="CreateDatabaseIfNotExist",result="201",le="2.5"} 1
+couchdb_processing_time_bucket{database="_users",function_name="CreateDatabaseIfNotExist",result="201",le="5"} 1
+couchdb_processing_time_bucket{database="_users",function_name="CreateDatabaseIfNotExist",result="201",le="10"} 1
+couchdb_processing_time_bucket{database="_users",function_name="CreateDatabaseIfNotExist",result="201",le="+Inf"} 1
+couchdb_processing_time_sum{database="_users",function_name="CreateDatabaseIfNotExist",result="201"} 0.012743107
+couchdb_processing_time_count{database="_users",function_name="CreateDatabaseIfNotExist",result="201"} 1
+couchdb_processing_time_bucket{database="_users",function_name="GetDatabaseInfo",result="404",le="0.005"} 1
+couchdb_processing_time_bucket{database="_users",function_name="GetDatabaseInfo",result="404",le="0.01"} 1
+couchdb_processing_time_bucket{database="_users",function_name="GetDatabaseInfo",result="404",le="0.025"} 1
+couchdb_processing_time_bucket{database="_users",function_name="GetDatabaseInfo",result="404",le="0.05"} 1
+couchdb_processing_time_bucket{database="_users",function_name="GetDatabaseInfo",result="404",le="0.1"} 1
+couchdb_processing_time_bucket{database="_users",function_name="GetDatabaseInfo",result="404",le="0.25"} 1
+couchdb_processing_time_bucket{database="_users",function_name="GetDatabaseInfo",result="404",le="0.5"} 1
+couchdb_processing_time_bucket{database="_users",function_name="GetDatabaseInfo",result="404",le="1"} 1
+couchdb_processing_time_bucket{database="_users",function_name="GetDatabaseInfo",result="404",le="2.5"} 1
+couchdb_processing_time_bucket{database="_users",function_name="GetDatabaseInfo",result="404",le="5"} 1
+couchdb_processing_time_bucket{database="_users",function_name="GetDatabaseInfo",result="404",le="10"} 1
+couchdb_processing_time_bucket{database="_users",function_name="GetDatabaseInfo",result="404",le="+Inf"} 1
+couchdb_processing_time_sum{database="_users",function_name="GetDatabaseInfo",result="404"} 0.001573196
+couchdb_processing_time_count{database="_users",function_name="GetDatabaseInfo",result="404"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="ApplyDatabaseSecurity",result="200",le="0.005"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="ApplyDatabaseSecurity",result="200",le="0.01"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="ApplyDatabaseSecurity",result="200",le="0.025"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="ApplyDatabaseSecurity",result="200",le="0.05"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="ApplyDatabaseSecurity",result="200",le="0.1"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="ApplyDatabaseSecurity",result="200",le="0.25"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="ApplyDatabaseSecurity",result="200",le="0.5"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="ApplyDatabaseSecurity",result="200",le="1"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="ApplyDatabaseSecurity",result="200",le="2.5"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="ApplyDatabaseSecurity",result="200",le="5"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="ApplyDatabaseSecurity",result="200",le="10"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="ApplyDatabaseSecurity",result="200",le="+Inf"} 1
+couchdb_processing_time_sum{database="fabric__internal",function_name="ApplyDatabaseSecurity",result="200"} 0.002105518
+couchdb_processing_time_count{database="fabric__internal",function_name="ApplyDatabaseSecurity",result="200"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="CreateDatabaseIfNotExist",result="201",le="0.005"} 0
+couchdb_processing_time_bucket{database="fabric__internal",function_name="CreateDatabaseIfNotExist",result="201",le="0.01"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="CreateDatabaseIfNotExist",result="201",le="0.025"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="CreateDatabaseIfNotExist",result="201",le="0.05"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="CreateDatabaseIfNotExist",result="201",le="0.1"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="CreateDatabaseIfNotExist",result="201",le="0.25"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="CreateDatabaseIfNotExist",result="201",le="0.5"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="CreateDatabaseIfNotExist",result="201",le="1"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="CreateDatabaseIfNotExist",result="201",le="2.5"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="CreateDatabaseIfNotExist",result="201",le="5"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="CreateDatabaseIfNotExist",result="201",le="10"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="CreateDatabaseIfNotExist",result="201",le="+Inf"} 1
+couchdb_processing_time_sum{database="fabric__internal",function_name="CreateDatabaseIfNotExist",result="201"} 0.005283206
+couchdb_processing_time_count{database="fabric__internal",function_name="CreateDatabaseIfNotExist",result="201"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="GetDatabaseInfo",result="404",le="0.005"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="GetDatabaseInfo",result="404",le="0.01"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="GetDatabaseInfo",result="404",le="0.025"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="GetDatabaseInfo",result="404",le="0.05"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="GetDatabaseInfo",result="404",le="0.1"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="GetDatabaseInfo",result="404",le="0.25"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="GetDatabaseInfo",result="404",le="0.5"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="GetDatabaseInfo",result="404",le="1"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="GetDatabaseInfo",result="404",le="2.5"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="GetDatabaseInfo",result="404",le="5"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="GetDatabaseInfo",result="404",le="10"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="GetDatabaseInfo",result="404",le="+Inf"} 1
+couchdb_processing_time_sum{database="fabric__internal",function_name="GetDatabaseInfo",result="404"} 0.000395429
+couchdb_processing_time_count{database="fabric__internal",function_name="GetDatabaseInfo",result="404"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="ReadDoc",result="404",le="0.005"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="ReadDoc",result="404",le="0.01"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="ReadDoc",result="404",le="0.025"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="ReadDoc",result="404",le="0.05"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="ReadDoc",result="404",le="0.1"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="ReadDoc",result="404",le="0.25"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="ReadDoc",result="404",le="0.5"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="ReadDoc",result="404",le="1"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="ReadDoc",result="404",le="2.5"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="ReadDoc",result="404",le="5"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="ReadDoc",result="404",le="10"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="ReadDoc",result="404",le="+Inf"} 1
+couchdb_processing_time_sum{database="fabric__internal",function_name="ReadDoc",result="404"} 0.000534566
+couchdb_processing_time_count{database="fabric__internal",function_name="ReadDoc",result="404"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="SaveDoc",result="201",le="0.005"} 0
+couchdb_processing_time_bucket{database="fabric__internal",function_name="SaveDoc",result="201",le="0.01"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="SaveDoc",result="201",le="0.025"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="SaveDoc",result="201",le="0.05"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="SaveDoc",result="201",le="0.1"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="SaveDoc",result="201",le="0.25"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="SaveDoc",result="201",le="0.5"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="SaveDoc",result="201",le="1"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="SaveDoc",result="201",le="2.5"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="SaveDoc",result="201",le="5"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="SaveDoc",result="201",le="10"} 1
+couchdb_processing_time_bucket{database="fabric__internal",function_name="SaveDoc",result="201",le="+Inf"} 1
+couchdb_processing_time_sum{database="fabric__internal",function_name="SaveDoc",result="201"} 0.00593225
+couchdb_processing_time_count{database="fabric__internal",function_name="SaveDoc",result="201"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="ApplyDatabaseSecurity",result="200",le="0.005"} 2
+couchdb_processing_time_bucket{database="mychannel_",function_name="ApplyDatabaseSecurity",result="200",le="0.01"} 2
+couchdb_processing_time_bucket{database="mychannel_",function_name="ApplyDatabaseSecurity",result="200",le="0.025"} 2
+couchdb_processing_time_bucket{database="mychannel_",function_name="ApplyDatabaseSecurity",result="200",le="0.05"} 2
+couchdb_processing_time_bucket{database="mychannel_",function_name="ApplyDatabaseSecurity",result="200",le="0.1"} 2
+couchdb_processing_time_bucket{database="mychannel_",function_name="ApplyDatabaseSecurity",result="200",le="0.25"} 2
+couchdb_processing_time_bucket{database="mychannel_",function_name="ApplyDatabaseSecurity",result="200",le="0.5"} 2
+couchdb_processing_time_bucket{database="mychannel_",function_name="ApplyDatabaseSecurity",result="200",le="1"} 2
+couchdb_processing_time_bucket{database="mychannel_",function_name="ApplyDatabaseSecurity",result="200",le="2.5"} 2
+couchdb_processing_time_bucket{database="mychannel_",function_name="ApplyDatabaseSecurity",result="200",le="5"} 2
+couchdb_processing_time_bucket{database="mychannel_",function_name="ApplyDatabaseSecurity",result="200",le="10"} 2
+couchdb_processing_time_bucket{database="mychannel_",function_name="ApplyDatabaseSecurity",result="200",le="+Inf"} 2
+couchdb_processing_time_sum{database="mychannel_",function_name="ApplyDatabaseSecurity",result="200"} 0.0034728090000000003
+couchdb_processing_time_count{database="mychannel_",function_name="ApplyDatabaseSecurity",result="200"} 2
+couchdb_processing_time_bucket{database="mychannel_",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.005"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.01"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.025"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.05"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.1"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.25"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.5"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="BatchRetrieveDocumentMetadata",result="200",le="1"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="BatchRetrieveDocumentMetadata",result="200",le="2.5"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="BatchRetrieveDocumentMetadata",result="200",le="5"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="BatchRetrieveDocumentMetadata",result="200",le="10"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="BatchRetrieveDocumentMetadata",result="200",le="+Inf"} 1
+couchdb_processing_time_sum{database="mychannel_",function_name="BatchRetrieveDocumentMetadata",result="200"} 0.001991739
+couchdb_processing_time_count{database="mychannel_",function_name="BatchRetrieveDocumentMetadata",result="200"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="BatchUpdateDocuments",result="201",le="0.005"} 0
+couchdb_processing_time_bucket{database="mychannel_",function_name="BatchUpdateDocuments",result="201",le="0.01"} 3
+couchdb_processing_time_bucket{database="mychannel_",function_name="BatchUpdateDocuments",result="201",le="0.025"} 3
+couchdb_processing_time_bucket{database="mychannel_",function_name="BatchUpdateDocuments",result="201",le="0.05"} 3
+couchdb_processing_time_bucket{database="mychannel_",function_name="BatchUpdateDocuments",result="201",le="0.1"} 3
+couchdb_processing_time_bucket{database="mychannel_",function_name="BatchUpdateDocuments",result="201",le="0.25"} 3
+couchdb_processing_time_bucket{database="mychannel_",function_name="BatchUpdateDocuments",result="201",le="0.5"} 3
+couchdb_processing_time_bucket{database="mychannel_",function_name="BatchUpdateDocuments",result="201",le="1"} 3
+couchdb_processing_time_bucket{database="mychannel_",function_name="BatchUpdateDocuments",result="201",le="2.5"} 3
+couchdb_processing_time_bucket{database="mychannel_",function_name="BatchUpdateDocuments",result="201",le="5"} 3
+couchdb_processing_time_bucket{database="mychannel_",function_name="BatchUpdateDocuments",result="201",le="10"} 3
+couchdb_processing_time_bucket{database="mychannel_",function_name="BatchUpdateDocuments",result="201",le="+Inf"} 3
+couchdb_processing_time_sum{database="mychannel_",function_name="BatchUpdateDocuments",result="201"} 0.017003571000000002
+couchdb_processing_time_count{database="mychannel_",function_name="BatchUpdateDocuments",result="201"} 3
+couchdb_processing_time_bucket{database="mychannel_",function_name="CreateDatabaseIfNotExist",result="201",le="0.005"} 0
+couchdb_processing_time_bucket{database="mychannel_",function_name="CreateDatabaseIfNotExist",result="201",le="0.01"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="CreateDatabaseIfNotExist",result="201",le="0.025"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="CreateDatabaseIfNotExist",result="201",le="0.05"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="CreateDatabaseIfNotExist",result="201",le="0.1"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="CreateDatabaseIfNotExist",result="201",le="0.25"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="CreateDatabaseIfNotExist",result="201",le="0.5"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="CreateDatabaseIfNotExist",result="201",le="1"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="CreateDatabaseIfNotExist",result="201",le="2.5"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="CreateDatabaseIfNotExist",result="201",le="5"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="CreateDatabaseIfNotExist",result="201",le="10"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="CreateDatabaseIfNotExist",result="201",le="+Inf"} 1
+couchdb_processing_time_sum{database="mychannel_",function_name="CreateDatabaseIfNotExist",result="201"} 0.005020077
+couchdb_processing_time_count{database="mychannel_",function_name="CreateDatabaseIfNotExist",result="201"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="GetDatabaseInfo",result="200",le="0.005"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="GetDatabaseInfo",result="200",le="0.01"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="GetDatabaseInfo",result="200",le="0.025"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="GetDatabaseInfo",result="200",le="0.05"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="GetDatabaseInfo",result="200",le="0.1"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="GetDatabaseInfo",result="200",le="0.25"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="GetDatabaseInfo",result="200",le="0.5"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="GetDatabaseInfo",result="200",le="1"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="GetDatabaseInfo",result="200",le="2.5"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="GetDatabaseInfo",result="200",le="5"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="GetDatabaseInfo",result="200",le="10"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="GetDatabaseInfo",result="200",le="+Inf"} 1
+couchdb_processing_time_sum{database="mychannel_",function_name="GetDatabaseInfo",result="200"} 0.000667398
+couchdb_processing_time_count{database="mychannel_",function_name="GetDatabaseInfo",result="200"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="GetDatabaseInfo",result="404",le="0.005"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="GetDatabaseInfo",result="404",le="0.01"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="GetDatabaseInfo",result="404",le="0.025"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="GetDatabaseInfo",result="404",le="0.05"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="GetDatabaseInfo",result="404",le="0.1"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="GetDatabaseInfo",result="404",le="0.25"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="GetDatabaseInfo",result="404",le="0.5"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="GetDatabaseInfo",result="404",le="1"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="GetDatabaseInfo",result="404",le="2.5"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="GetDatabaseInfo",result="404",le="5"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="GetDatabaseInfo",result="404",le="10"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="GetDatabaseInfo",result="404",le="+Inf"} 1
+couchdb_processing_time_sum{database="mychannel_",function_name="GetDatabaseInfo",result="404"} 0.000940567
+couchdb_processing_time_count{database="mychannel_",function_name="GetDatabaseInfo",result="404"} 1
+couchdb_processing_time_bucket{database="mychannel_",function_name="ReadDoc",result="200",le="0.005"} 66
+couchdb_processing_time_bucket{database="mychannel_",function_name="ReadDoc",result="200",le="0.01"} 66
+couchdb_processing_time_bucket{database="mychannel_",function_name="ReadDoc",result="200",le="0.025"} 66
+couchdb_processing_time_bucket{database="mychannel_",function_name="ReadDoc",result="200",le="0.05"} 66
+couchdb_processing_time_bucket{database="mychannel_",function_name="ReadDoc",result="200",le="0.1"} 66
+couchdb_processing_time_bucket{database="mychannel_",function_name="ReadDoc",result="200",le="0.25"} 66
+couchdb_processing_time_bucket{database="mychannel_",function_name="ReadDoc",result="200",le="0.5"} 66
+couchdb_processing_time_bucket{database="mychannel_",function_name="ReadDoc",result="200",le="1"} 66
+couchdb_processing_time_bucket{database="mychannel_",function_name="ReadDoc",result="200",le="2.5"} 66
+couchdb_processing_time_bucket{database="mychannel_",function_name="ReadDoc",result="200",le="5"} 66
+couchdb_processing_time_bucket{database="mychannel_",function_name="ReadDoc",result="200",le="10"} 66
+couchdb_processing_time_bucket{database="mychannel_",function_name="ReadDoc",result="200",le="+Inf"} 66
+couchdb_processing_time_sum{database="mychannel_",function_name="ReadDoc",result="200"} 0.06951819100000002
+couchdb_processing_time_count{database="mychannel_",function_name="ReadDoc",result="200"} 66
+couchdb_processing_time_bucket{database="mychannel_",function_name="ReadDoc",result="404",le="0.005"} 3
+couchdb_processing_time_bucket{database="mychannel_",function_name="ReadDoc",result="404",le="0.01"} 3
+couchdb_processing_time_bucket{database="mychannel_",function_name="ReadDoc",result="404",le="0.025"} 3
+couchdb_processing_time_bucket{database="mychannel_",function_name="ReadDoc",result="404",le="0.05"} 3
+couchdb_processing_time_bucket{database="mychannel_",function_name="ReadDoc",result="404",le="0.1"} 3
+couchdb_processing_time_bucket{database="mychannel_",function_name="ReadDoc",result="404",le="0.25"} 3
+couchdb_processing_time_bucket{database="mychannel_",function_name="ReadDoc",result="404",le="0.5"} 3
+couchdb_processing_time_bucket{database="mychannel_",function_name="ReadDoc",result="404",le="1"} 3
+couchdb_processing_time_bucket{database="mychannel_",function_name="ReadDoc",result="404",le="2.5"} 3
+couchdb_processing_time_bucket{database="mychannel_",function_name="ReadDoc",result="404",le="5"} 3
+couchdb_processing_time_bucket{database="mychannel_",function_name="ReadDoc",result="404",le="10"} 3
+couchdb_processing_time_bucket{database="mychannel_",function_name="ReadDoc",result="404",le="+Inf"} 3
+couchdb_processing_time_sum{database="mychannel_",function_name="ReadDoc",result="404"} 0.001859863
+couchdb_processing_time_count{database="mychannel_",function_name="ReadDoc",result="404"} 3
+couchdb_processing_time_bucket{database="mychannel_",function_name="SaveDoc",result="201",le="0.005"} 61
+couchdb_processing_time_bucket{database="mychannel_",function_name="SaveDoc",result="201",le="0.01"} 66
+couchdb_processing_time_bucket{database="mychannel_",function_name="SaveDoc",result="201",le="0.025"} 67
+couchdb_processing_time_bucket{database="mychannel_",function_name="SaveDoc",result="201",le="0.05"} 67
+couchdb_processing_time_bucket{database="mychannel_",function_name="SaveDoc",result="201",le="0.1"} 67
+couchdb_processing_time_bucket{database="mychannel_",function_name="SaveDoc",result="201",le="0.25"} 67
+couchdb_processing_time_bucket{database="mychannel_",function_name="SaveDoc",result="201",le="0.5"} 67
+couchdb_processing_time_bucket{database="mychannel_",function_name="SaveDoc",result="201",le="1"} 67
+couchdb_processing_time_bucket{database="mychannel_",function_name="SaveDoc",result="201",le="2.5"} 67
+couchdb_processing_time_bucket{database="mychannel_",function_name="SaveDoc",result="201",le="5"} 67
+couchdb_processing_time_bucket{database="mychannel_",function_name="SaveDoc",result="201",le="10"} 67
+couchdb_processing_time_bucket{database="mychannel_",function_name="SaveDoc",result="201",le="+Inf"} 67
+couchdb_processing_time_sum{database="mychannel_",function_name="SaveDoc",result="201"} 0.20950057099999989
+couchdb_processing_time_count{database="mychannel_",function_name="SaveDoc",result="201"} 67
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="ApplyDatabaseSecurity",result="200",le="0.005"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="ApplyDatabaseSecurity",result="200",le="0.01"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="ApplyDatabaseSecurity",result="200",le="0.025"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="ApplyDatabaseSecurity",result="200",le="0.05"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="ApplyDatabaseSecurity",result="200",le="0.1"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="ApplyDatabaseSecurity",result="200",le="0.25"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="ApplyDatabaseSecurity",result="200",le="0.5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="ApplyDatabaseSecurity",result="200",le="1"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="ApplyDatabaseSecurity",result="200",le="2.5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="ApplyDatabaseSecurity",result="200",le="5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="ApplyDatabaseSecurity",result="200",le="10"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="ApplyDatabaseSecurity",result="200",le="+Inf"} 1
+couchdb_processing_time_sum{database="mychannel__lifecycle",function_name="ApplyDatabaseSecurity",result="200"} 0.001748179
+couchdb_processing_time_count{database="mychannel__lifecycle",function_name="ApplyDatabaseSecurity",result="200"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.005"} 4
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.01"} 4
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.025"} 4
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.05"} 4
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.1"} 4
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.25"} 4
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.5"} 4
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="BatchRetrieveDocumentMetadata",result="200",le="1"} 4
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="BatchRetrieveDocumentMetadata",result="200",le="2.5"} 4
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="BatchRetrieveDocumentMetadata",result="200",le="5"} 4
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="BatchRetrieveDocumentMetadata",result="200",le="10"} 4
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="BatchRetrieveDocumentMetadata",result="200",le="+Inf"} 4
+couchdb_processing_time_sum{database="mychannel__lifecycle",function_name="BatchRetrieveDocumentMetadata",result="200"} 0.007140608
+couchdb_processing_time_count{database="mychannel__lifecycle",function_name="BatchRetrieveDocumentMetadata",result="200"} 4
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="BatchUpdateDocuments",result="201",le="0.005"} 0
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="BatchUpdateDocuments",result="201",le="0.01"} 0
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="BatchUpdateDocuments",result="201",le="0.025"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="BatchUpdateDocuments",result="201",le="0.05"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="BatchUpdateDocuments",result="201",le="0.1"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="BatchUpdateDocuments",result="201",le="0.25"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="BatchUpdateDocuments",result="201",le="0.5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="BatchUpdateDocuments",result="201",le="1"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="BatchUpdateDocuments",result="201",le="2.5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="BatchUpdateDocuments",result="201",le="5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="BatchUpdateDocuments",result="201",le="10"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="BatchUpdateDocuments",result="201",le="+Inf"} 1
+couchdb_processing_time_sum{database="mychannel__lifecycle",function_name="BatchUpdateDocuments",result="201"} 0.018282673
+couchdb_processing_time_count{database="mychannel__lifecycle",function_name="BatchUpdateDocuments",result="201"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="CreateDatabaseIfNotExist",result="201",le="0.005"} 0
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="CreateDatabaseIfNotExist",result="201",le="0.01"} 0
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="CreateDatabaseIfNotExist",result="201",le="0.025"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="CreateDatabaseIfNotExist",result="201",le="0.05"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="CreateDatabaseIfNotExist",result="201",le="0.1"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="CreateDatabaseIfNotExist",result="201",le="0.25"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="CreateDatabaseIfNotExist",result="201",le="0.5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="CreateDatabaseIfNotExist",result="201",le="1"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="CreateDatabaseIfNotExist",result="201",le="2.5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="CreateDatabaseIfNotExist",result="201",le="5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="CreateDatabaseIfNotExist",result="201",le="10"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="CreateDatabaseIfNotExist",result="201",le="+Inf"} 1
+couchdb_processing_time_sum{database="mychannel__lifecycle",function_name="CreateDatabaseIfNotExist",result="201"} 0.012602122
+couchdb_processing_time_count{database="mychannel__lifecycle",function_name="CreateDatabaseIfNotExist",result="201"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="GetDatabaseInfo",result="404",le="0.005"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="GetDatabaseInfo",result="404",le="0.01"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="GetDatabaseInfo",result="404",le="0.025"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="GetDatabaseInfo",result="404",le="0.05"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="GetDatabaseInfo",result="404",le="0.1"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="GetDatabaseInfo",result="404",le="0.25"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="GetDatabaseInfo",result="404",le="0.5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="GetDatabaseInfo",result="404",le="1"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="GetDatabaseInfo",result="404",le="2.5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="GetDatabaseInfo",result="404",le="5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="GetDatabaseInfo",result="404",le="10"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="GetDatabaseInfo",result="404",le="+Inf"} 1
+couchdb_processing_time_sum{database="mychannel__lifecycle",function_name="GetDatabaseInfo",result="404"} 0.000517975
+couchdb_processing_time_count{database="mychannel__lifecycle",function_name="GetDatabaseInfo",result="404"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="RangeDocRange",result="200",le="0.005"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="RangeDocRange",result="200",le="0.01"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="RangeDocRange",result="200",le="0.025"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="RangeDocRange",result="200",le="0.05"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="RangeDocRange",result="200",le="0.1"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="RangeDocRange",result="200",le="0.25"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="RangeDocRange",result="200",le="0.5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="RangeDocRange",result="200",le="1"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="RangeDocRange",result="200",le="2.5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="RangeDocRange",result="200",le="5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="RangeDocRange",result="200",le="10"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="RangeDocRange",result="200",le="+Inf"} 1
+couchdb_processing_time_sum{database="mychannel__lifecycle",function_name="RangeDocRange",result="200"} 0.000688266
+couchdb_processing_time_count{database="mychannel__lifecycle",function_name="RangeDocRange",result="200"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="ReadDoc",result="200",le="0.005"} 9
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="ReadDoc",result="200",le="0.01"} 21
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="ReadDoc",result="200",le="0.025"} 29
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="ReadDoc",result="200",le="0.05"} 30
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="ReadDoc",result="200",le="0.1"} 30
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="ReadDoc",result="200",le="0.25"} 30
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="ReadDoc",result="200",le="0.5"} 30
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="ReadDoc",result="200",le="1"} 30
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="ReadDoc",result="200",le="2.5"} 30
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="ReadDoc",result="200",le="5"} 30
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="ReadDoc",result="200",le="10"} 30
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="ReadDoc",result="200",le="+Inf"} 30
+couchdb_processing_time_sum{database="mychannel__lifecycle",function_name="ReadDoc",result="200"} 0.238438385
+couchdb_processing_time_count{database="mychannel__lifecycle",function_name="ReadDoc",result="200"} 30
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="ReadDoc",result="404",le="0.005"} 6
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="ReadDoc",result="404",le="0.01"} 7
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="ReadDoc",result="404",le="0.025"} 7
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="ReadDoc",result="404",le="0.05"} 7
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="ReadDoc",result="404",le="0.1"} 7
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="ReadDoc",result="404",le="0.25"} 7
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="ReadDoc",result="404",le="0.5"} 7
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="ReadDoc",result="404",le="1"} 7
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="ReadDoc",result="404",le="2.5"} 7
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="ReadDoc",result="404",le="5"} 7
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="ReadDoc",result="404",le="10"} 7
+couchdb_processing_time_bucket{database="mychannel__lifecycle",function_name="ReadDoc",result="404",le="+Inf"} 7
+couchdb_processing_time_sum{database="mychannel__lifecycle",function_name="ReadDoc",result="404"} 0.014145402999999999
+couchdb_processing_time_count{database="mychannel__lifecycle",function_name="ReadDoc",result="404"} 7
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ApplyDatabaseSecurity",result="200",le="0.005"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ApplyDatabaseSecurity",result="200",le="0.01"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ApplyDatabaseSecurity",result="200",le="0.025"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ApplyDatabaseSecurity",result="200",le="0.05"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ApplyDatabaseSecurity",result="200",le="0.1"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ApplyDatabaseSecurity",result="200",le="0.25"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ApplyDatabaseSecurity",result="200",le="0.5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ApplyDatabaseSecurity",result="200",le="1"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ApplyDatabaseSecurity",result="200",le="2.5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ApplyDatabaseSecurity",result="200",le="5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ApplyDatabaseSecurity",result="200",le="10"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ApplyDatabaseSecurity",result="200",le="+Inf"} 1
+couchdb_processing_time_sum{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ApplyDatabaseSecurity",result="200"} 0.002399834
+couchdb_processing_time_count{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ApplyDatabaseSecurity",result="200"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.005"} 2
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.01"} 2
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.025"} 2
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.05"} 2
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.1"} 2
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.25"} 2
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.5"} 2
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200",le="1"} 2
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200",le="2.5"} 2
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200",le="5"} 2
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200",le="10"} 2
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200",le="+Inf"} 2
+couchdb_processing_time_sum{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200"} 0.002600135
+couchdb_processing_time_count{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200"} 2
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="BatchUpdateDocuments",result="201",le="0.005"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="BatchUpdateDocuments",result="201",le="0.01"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="BatchUpdateDocuments",result="201",le="0.025"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="BatchUpdateDocuments",result="201",le="0.05"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="BatchUpdateDocuments",result="201",le="0.1"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="BatchUpdateDocuments",result="201",le="0.25"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="BatchUpdateDocuments",result="201",le="0.5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="BatchUpdateDocuments",result="201",le="1"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="BatchUpdateDocuments",result="201",le="2.5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="BatchUpdateDocuments",result="201",le="5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="BatchUpdateDocuments",result="201",le="10"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="BatchUpdateDocuments",result="201",le="+Inf"} 1
+couchdb_processing_time_sum{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="BatchUpdateDocuments",result="201"} 0.004571885
+couchdb_processing_time_count{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="BatchUpdateDocuments",result="201"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="CreateDatabaseIfNotExist",result="201",le="0.005"} 0
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="CreateDatabaseIfNotExist",result="201",le="0.01"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="CreateDatabaseIfNotExist",result="201",le="0.025"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="CreateDatabaseIfNotExist",result="201",le="0.05"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="CreateDatabaseIfNotExist",result="201",le="0.1"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="CreateDatabaseIfNotExist",result="201",le="0.25"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="CreateDatabaseIfNotExist",result="201",le="0.5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="CreateDatabaseIfNotExist",result="201",le="1"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="CreateDatabaseIfNotExist",result="201",le="2.5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="CreateDatabaseIfNotExist",result="201",le="5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="CreateDatabaseIfNotExist",result="201",le="10"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="CreateDatabaseIfNotExist",result="201",le="+Inf"} 1
+couchdb_processing_time_sum{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="CreateDatabaseIfNotExist",result="201"} 0.005868261
+couchdb_processing_time_count{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="CreateDatabaseIfNotExist",result="201"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="GetDatabaseInfo",result="404",le="0.005"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="GetDatabaseInfo",result="404",le="0.01"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="GetDatabaseInfo",result="404",le="0.025"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="GetDatabaseInfo",result="404",le="0.05"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="GetDatabaseInfo",result="404",le="0.1"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="GetDatabaseInfo",result="404",le="0.25"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="GetDatabaseInfo",result="404",le="0.5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="GetDatabaseInfo",result="404",le="1"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="GetDatabaseInfo",result="404",le="2.5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="GetDatabaseInfo",result="404",le="5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="GetDatabaseInfo",result="404",le="10"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="GetDatabaseInfo",result="404",le="+Inf"} 1
+couchdb_processing_time_sum{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="GetDatabaseInfo",result="404"} 0.000622177
+couchdb_processing_time_count{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="GetDatabaseInfo",result="404"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="200",le="0.005"} 6
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="200",le="0.01"} 6
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="200",le="0.025"} 6
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="200",le="0.05"} 6
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="200",le="0.1"} 6
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="200",le="0.25"} 6
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="200",le="0.5"} 6
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="200",le="1"} 6
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="200",le="2.5"} 6
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="200",le="5"} 6
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="200",le="10"} 6
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="200",le="+Inf"} 6
+couchdb_processing_time_sum{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="200"} 0.004922229
+couchdb_processing_time_count{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="200"} 6
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="404",le="0.005"} 3
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="404",le="0.01"} 3
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="404",le="0.025"} 3
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="404",le="0.05"} 3
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="404",le="0.1"} 3
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="404",le="0.25"} 3
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="404",le="0.5"} 3
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="404",le="1"} 3
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="404",le="2.5"} 3
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="404",le="5"} 3
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="404",le="10"} 3
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="404",le="+Inf"} 3
+couchdb_processing_time_sum{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="404"} 0.001546126
+couchdb_processing_time_count{database="mychannel__lifecycle$$h_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="404"} 3
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="ApplyDatabaseSecurity",result="200",le="0.005"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="ApplyDatabaseSecurity",result="200",le="0.01"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="ApplyDatabaseSecurity",result="200",le="0.025"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="ApplyDatabaseSecurity",result="200",le="0.05"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="ApplyDatabaseSecurity",result="200",le="0.1"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="ApplyDatabaseSecurity",result="200",le="0.25"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="ApplyDatabaseSecurity",result="200",le="0.5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="ApplyDatabaseSecurity",result="200",le="1"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="ApplyDatabaseSecurity",result="200",le="2.5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="ApplyDatabaseSecurity",result="200",le="5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="ApplyDatabaseSecurity",result="200",le="10"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="ApplyDatabaseSecurity",result="200",le="+Inf"} 1
+couchdb_processing_time_sum{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="ApplyDatabaseSecurity",result="200"} 0.003874867
+couchdb_processing_time_count{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="ApplyDatabaseSecurity",result="200"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.005"} 2
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.01"} 2
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.025"} 2
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.05"} 2
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.1"} 2
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.25"} 2
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.5"} 2
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200",le="1"} 2
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200",le="2.5"} 2
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200",le="5"} 2
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200",le="10"} 2
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200",le="+Inf"} 2
+couchdb_processing_time_sum{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200"} 0.002172592
+couchdb_processing_time_count{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200"} 2
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="BatchUpdateDocuments",result="201",le="0.005"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="BatchUpdateDocuments",result="201",le="0.01"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="BatchUpdateDocuments",result="201",le="0.025"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="BatchUpdateDocuments",result="201",le="0.05"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="BatchUpdateDocuments",result="201",le="0.1"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="BatchUpdateDocuments",result="201",le="0.25"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="BatchUpdateDocuments",result="201",le="0.5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="BatchUpdateDocuments",result="201",le="1"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="BatchUpdateDocuments",result="201",le="2.5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="BatchUpdateDocuments",result="201",le="5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="BatchUpdateDocuments",result="201",le="10"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="BatchUpdateDocuments",result="201",le="+Inf"} 1
+couchdb_processing_time_sum{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="BatchUpdateDocuments",result="201"} 0.0039659
+couchdb_processing_time_count{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="BatchUpdateDocuments",result="201"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="CreateDatabaseIfNotExist",result="201",le="0.005"} 0
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="CreateDatabaseIfNotExist",result="201",le="0.01"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="CreateDatabaseIfNotExist",result="201",le="0.025"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="CreateDatabaseIfNotExist",result="201",le="0.05"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="CreateDatabaseIfNotExist",result="201",le="0.1"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="CreateDatabaseIfNotExist",result="201",le="0.25"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="CreateDatabaseIfNotExist",result="201",le="0.5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="CreateDatabaseIfNotExist",result="201",le="1"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="CreateDatabaseIfNotExist",result="201",le="2.5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="CreateDatabaseIfNotExist",result="201",le="5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="CreateDatabaseIfNotExist",result="201",le="10"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="CreateDatabaseIfNotExist",result="201",le="+Inf"} 1
+couchdb_processing_time_sum{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="CreateDatabaseIfNotExist",result="201"} 0.008384069
+couchdb_processing_time_count{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="CreateDatabaseIfNotExist",result="201"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="GetDatabaseInfo",result="404",le="0.005"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="GetDatabaseInfo",result="404",le="0.01"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="GetDatabaseInfo",result="404",le="0.025"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="GetDatabaseInfo",result="404",le="0.05"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="GetDatabaseInfo",result="404",le="0.1"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="GetDatabaseInfo",result="404",le="0.25"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="GetDatabaseInfo",result="404",le="0.5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="GetDatabaseInfo",result="404",le="1"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="GetDatabaseInfo",result="404",le="2.5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="GetDatabaseInfo",result="404",le="5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="GetDatabaseInfo",result="404",le="10"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="GetDatabaseInfo",result="404",le="+Inf"} 1
+couchdb_processing_time_sum{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="GetDatabaseInfo",result="404"} 0.000635765
+couchdb_processing_time_count{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="GetDatabaseInfo",result="404"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="ReadDoc",result="200",le="0.005"} 4
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="ReadDoc",result="200",le="0.01"} 4
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="ReadDoc",result="200",le="0.025"} 4
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="ReadDoc",result="200",le="0.05"} 4
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="ReadDoc",result="200",le="0.1"} 4
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="ReadDoc",result="200",le="0.25"} 4
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="ReadDoc",result="200",le="0.5"} 4
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="ReadDoc",result="200",le="1"} 4
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="ReadDoc",result="200",le="2.5"} 4
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="ReadDoc",result="200",le="5"} 4
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="ReadDoc",result="200",le="10"} 4
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="ReadDoc",result="200",le="+Inf"} 4
+couchdb_processing_time_sum{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="ReadDoc",result="200"} 0.002438942
+couchdb_processing_time_count{database="mychannel__lifecycle$$h_implicit_org_$org2$m$s$p",function_name="ReadDoc",result="200"} 4
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="ApplyDatabaseSecurity",result="200",le="0.005"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="ApplyDatabaseSecurity",result="200",le="0.01"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="ApplyDatabaseSecurity",result="200",le="0.025"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="ApplyDatabaseSecurity",result="200",le="0.05"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="ApplyDatabaseSecurity",result="200",le="0.1"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="ApplyDatabaseSecurity",result="200",le="0.25"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="ApplyDatabaseSecurity",result="200",le="0.5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="ApplyDatabaseSecurity",result="200",le="1"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="ApplyDatabaseSecurity",result="200",le="2.5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="ApplyDatabaseSecurity",result="200",le="5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="ApplyDatabaseSecurity",result="200",le="10"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="ApplyDatabaseSecurity",result="200",le="+Inf"} 1
+couchdb_processing_time_sum{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="ApplyDatabaseSecurity",result="200"} 0.002458196
+couchdb_processing_time_count{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="ApplyDatabaseSecurity",result="200"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.005"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.01"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.025"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.05"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.1"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.25"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200",le="1"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200",le="2.5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200",le="5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200",le="10"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200",le="+Inf"} 1
+couchdb_processing_time_sum{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200"} 0.001120271
+couchdb_processing_time_count{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="BatchRetrieveDocumentMetadata",result="200"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="BatchUpdateDocuments",result="201",le="0.005"} 0
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="BatchUpdateDocuments",result="201",le="0.01"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="BatchUpdateDocuments",result="201",le="0.025"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="BatchUpdateDocuments",result="201",le="0.05"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="BatchUpdateDocuments",result="201",le="0.1"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="BatchUpdateDocuments",result="201",le="0.25"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="BatchUpdateDocuments",result="201",le="0.5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="BatchUpdateDocuments",result="201",le="1"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="BatchUpdateDocuments",result="201",le="2.5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="BatchUpdateDocuments",result="201",le="5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="BatchUpdateDocuments",result="201",le="10"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="BatchUpdateDocuments",result="201",le="+Inf"} 1
+couchdb_processing_time_sum{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="BatchUpdateDocuments",result="201"} 0.005282969
+couchdb_processing_time_count{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="BatchUpdateDocuments",result="201"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="CreateDatabaseIfNotExist",result="201",le="0.005"} 0
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="CreateDatabaseIfNotExist",result="201",le="0.01"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="CreateDatabaseIfNotExist",result="201",le="0.025"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="CreateDatabaseIfNotExist",result="201",le="0.05"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="CreateDatabaseIfNotExist",result="201",le="0.1"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="CreateDatabaseIfNotExist",result="201",le="0.25"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="CreateDatabaseIfNotExist",result="201",le="0.5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="CreateDatabaseIfNotExist",result="201",le="1"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="CreateDatabaseIfNotExist",result="201",le="2.5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="CreateDatabaseIfNotExist",result="201",le="5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="CreateDatabaseIfNotExist",result="201",le="10"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="CreateDatabaseIfNotExist",result="201",le="+Inf"} 1
+couchdb_processing_time_sum{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="CreateDatabaseIfNotExist",result="201"} 0.006162718
+couchdb_processing_time_count{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="CreateDatabaseIfNotExist",result="201"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="GetDatabaseInfo",result="404",le="0.005"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="GetDatabaseInfo",result="404",le="0.01"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="GetDatabaseInfo",result="404",le="0.025"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="GetDatabaseInfo",result="404",le="0.05"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="GetDatabaseInfo",result="404",le="0.1"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="GetDatabaseInfo",result="404",le="0.25"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="GetDatabaseInfo",result="404",le="0.5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="GetDatabaseInfo",result="404",le="1"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="GetDatabaseInfo",result="404",le="2.5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="GetDatabaseInfo",result="404",le="5"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="GetDatabaseInfo",result="404",le="10"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="GetDatabaseInfo",result="404",le="+Inf"} 1
+couchdb_processing_time_sum{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="GetDatabaseInfo",result="404"} 0.000620792
+couchdb_processing_time_count{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="GetDatabaseInfo",result="404"} 1
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="404",le="0.005"} 3
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="404",le="0.01"} 3
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="404",le="0.025"} 3
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="404",le="0.05"} 3
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="404",le="0.1"} 3
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="404",le="0.25"} 3
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="404",le="0.5"} 3
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="404",le="1"} 3
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="404",le="2.5"} 3
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="404",le="5"} 3
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="404",le="10"} 3
+couchdb_processing_time_bucket{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="404",le="+Inf"} 3
+couchdb_processing_time_sum{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="404"} 0.0016105760000000003
+couchdb_processing_time_count{database="mychannel__lifecycle$$p_implicit_org_$org1$m$s$p",function_name="ReadDoc",result="404"} 3
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="ApplyDatabaseSecurity",result="200",le="0.005"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="ApplyDatabaseSecurity",result="200",le="0.01"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="ApplyDatabaseSecurity",result="200",le="0.025"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="ApplyDatabaseSecurity",result="200",le="0.05"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="ApplyDatabaseSecurity",result="200",le="0.1"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="ApplyDatabaseSecurity",result="200",le="0.25"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="ApplyDatabaseSecurity",result="200",le="0.5"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="ApplyDatabaseSecurity",result="200",le="1"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="ApplyDatabaseSecurity",result="200",le="2.5"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="ApplyDatabaseSecurity",result="200",le="5"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="ApplyDatabaseSecurity",result="200",le="10"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="ApplyDatabaseSecurity",result="200",le="+Inf"} 1
+couchdb_processing_time_sum{database="mychannel_fabcar",function_name="ApplyDatabaseSecurity",result="200"} 0.003005643
+couchdb_processing_time_count{database="mychannel_fabcar",function_name="ApplyDatabaseSecurity",result="200"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.005"} 33
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.01"} 51
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.025"} 53
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.05"} 53
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.1"} 53
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.25"} 53
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.5"} 53
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="BatchRetrieveDocumentMetadata",result="200",le="1"} 53
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="BatchRetrieveDocumentMetadata",result="200",le="2.5"} 53
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="BatchRetrieveDocumentMetadata",result="200",le="5"} 53
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="BatchRetrieveDocumentMetadata",result="200",le="10"} 53
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="BatchRetrieveDocumentMetadata",result="200",le="+Inf"} 53
+couchdb_processing_time_sum{database="mychannel_fabcar",function_name="BatchRetrieveDocumentMetadata",result="200"} 0.25667778
+couchdb_processing_time_count{database="mychannel_fabcar",function_name="BatchRetrieveDocumentMetadata",result="200"} 53
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="BatchUpdateDocuments",result="201",le="0.005"} 8
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="BatchUpdateDocuments",result="201",le="0.01"} 50
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="BatchUpdateDocuments",result="201",le="0.025"} 53
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="BatchUpdateDocuments",result="201",le="0.05"} 53
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="BatchUpdateDocuments",result="201",le="0.1"} 53
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="BatchUpdateDocuments",result="201",le="0.25"} 53
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="BatchUpdateDocuments",result="201",le="0.5"} 53
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="BatchUpdateDocuments",result="201",le="1"} 53
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="BatchUpdateDocuments",result="201",le="2.5"} 53
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="BatchUpdateDocuments",result="201",le="5"} 53
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="BatchUpdateDocuments",result="201",le="10"} 53
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="BatchUpdateDocuments",result="201",le="+Inf"} 53
+couchdb_processing_time_sum{database="mychannel_fabcar",function_name="BatchUpdateDocuments",result="201"} 0.36041567299999994
+couchdb_processing_time_count{database="mychannel_fabcar",function_name="BatchUpdateDocuments",result="201"} 53
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="CreateDatabaseIfNotExist",result="201",le="0.005"} 0
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="CreateDatabaseIfNotExist",result="201",le="0.01"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="CreateDatabaseIfNotExist",result="201",le="0.025"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="CreateDatabaseIfNotExist",result="201",le="0.05"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="CreateDatabaseIfNotExist",result="201",le="0.1"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="CreateDatabaseIfNotExist",result="201",le="0.25"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="CreateDatabaseIfNotExist",result="201",le="0.5"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="CreateDatabaseIfNotExist",result="201",le="1"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="CreateDatabaseIfNotExist",result="201",le="2.5"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="CreateDatabaseIfNotExist",result="201",le="5"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="CreateDatabaseIfNotExist",result="201",le="10"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="CreateDatabaseIfNotExist",result="201",le="+Inf"} 1
+couchdb_processing_time_sum{database="mychannel_fabcar",function_name="CreateDatabaseIfNotExist",result="201"} 0.006271525
+couchdb_processing_time_count{database="mychannel_fabcar",function_name="CreateDatabaseIfNotExist",result="201"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="GetDatabaseInfo",result="404",le="0.005"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="GetDatabaseInfo",result="404",le="0.01"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="GetDatabaseInfo",result="404",le="0.025"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="GetDatabaseInfo",result="404",le="0.05"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="GetDatabaseInfo",result="404",le="0.1"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="GetDatabaseInfo",result="404",le="0.25"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="GetDatabaseInfo",result="404",le="0.5"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="GetDatabaseInfo",result="404",le="1"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="GetDatabaseInfo",result="404",le="2.5"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="GetDatabaseInfo",result="404",le="5"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="GetDatabaseInfo",result="404",le="10"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="GetDatabaseInfo",result="404",le="+Inf"} 1
+couchdb_processing_time_sum{database="mychannel_fabcar",function_name="GetDatabaseInfo",result="404"} 0.000563828
+couchdb_processing_time_count{database="mychannel_fabcar",function_name="GetDatabaseInfo",result="404"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="RangeDocRange",result="200",le="0.005"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="RangeDocRange",result="200",le="0.01"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="RangeDocRange",result="200",le="0.025"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="RangeDocRange",result="200",le="0.05"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="RangeDocRange",result="200",le="0.1"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="RangeDocRange",result="200",le="0.25"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="RangeDocRange",result="200",le="0.5"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="RangeDocRange",result="200",le="1"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="RangeDocRange",result="200",le="2.5"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="RangeDocRange",result="200",le="5"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="RangeDocRange",result="200",le="10"} 1
+couchdb_processing_time_bucket{database="mychannel_fabcar",function_name="RangeDocRange",result="200",le="+Inf"} 1
+couchdb_processing_time_sum{database="mychannel_fabcar",function_name="RangeDocRange",result="200"} 0.000909446
+couchdb_processing_time_count{database="mychannel_fabcar",function_name="RangeDocRange",result="200"} 1
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="ApplyDatabaseSecurity",result="200",le="0.005"} 1
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="ApplyDatabaseSecurity",result="200",le="0.01"} 1
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="ApplyDatabaseSecurity",result="200",le="0.025"} 1
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="ApplyDatabaseSecurity",result="200",le="0.05"} 1
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="ApplyDatabaseSecurity",result="200",le="0.1"} 1
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="ApplyDatabaseSecurity",result="200",le="0.25"} 1
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="ApplyDatabaseSecurity",result="200",le="0.5"} 1
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="ApplyDatabaseSecurity",result="200",le="1"} 1
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="ApplyDatabaseSecurity",result="200",le="2.5"} 1
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="ApplyDatabaseSecurity",result="200",le="5"} 1
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="ApplyDatabaseSecurity",result="200",le="10"} 1
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="ApplyDatabaseSecurity",result="200",le="+Inf"} 1
+couchdb_processing_time_sum{database="mychannel_lscc",function_name="ApplyDatabaseSecurity",result="200"} 0.002229478
+couchdb_processing_time_count{database="mychannel_lscc",function_name="ApplyDatabaseSecurity",result="200"} 1
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.005"} 3
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.01"} 3
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.025"} 3
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.05"} 3
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.1"} 3
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.25"} 3
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="BatchRetrieveDocumentMetadata",result="200",le="0.5"} 3
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="BatchRetrieveDocumentMetadata",result="200",le="1"} 3
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="BatchRetrieveDocumentMetadata",result="200",le="2.5"} 3
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="BatchRetrieveDocumentMetadata",result="200",le="5"} 3
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="BatchRetrieveDocumentMetadata",result="200",le="10"} 3
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="BatchRetrieveDocumentMetadata",result="200",le="+Inf"} 3
+couchdb_processing_time_sum{database="mychannel_lscc",function_name="BatchRetrieveDocumentMetadata",result="200"} 0.0057092900000000005
+couchdb_processing_time_count{database="mychannel_lscc",function_name="BatchRetrieveDocumentMetadata",result="200"} 3
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="CreateDatabaseIfNotExist",result="201",le="0.005"} 0
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="CreateDatabaseIfNotExist",result="201",le="0.01"} 1
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="CreateDatabaseIfNotExist",result="201",le="0.025"} 1
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="CreateDatabaseIfNotExist",result="201",le="0.05"} 1
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="CreateDatabaseIfNotExist",result="201",le="0.1"} 1
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="CreateDatabaseIfNotExist",result="201",le="0.25"} 1
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="CreateDatabaseIfNotExist",result="201",le="0.5"} 1
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="CreateDatabaseIfNotExist",result="201",le="1"} 1
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="CreateDatabaseIfNotExist",result="201",le="2.5"} 1
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="CreateDatabaseIfNotExist",result="201",le="5"} 1
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="CreateDatabaseIfNotExist",result="201",le="10"} 1
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="CreateDatabaseIfNotExist",result="201",le="+Inf"} 1
+couchdb_processing_time_sum{database="mychannel_lscc",function_name="CreateDatabaseIfNotExist",result="201"} 0.005848657
+couchdb_processing_time_count{database="mychannel_lscc",function_name="CreateDatabaseIfNotExist",result="201"} 1
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="GetDatabaseInfo",result="404",le="0.005"} 1
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="GetDatabaseInfo",result="404",le="0.01"} 1
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="GetDatabaseInfo",result="404",le="0.025"} 1
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="GetDatabaseInfo",result="404",le="0.05"} 1
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="GetDatabaseInfo",result="404",le="0.1"} 1
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="GetDatabaseInfo",result="404",le="0.25"} 1
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="GetDatabaseInfo",result="404",le="0.5"} 1
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="GetDatabaseInfo",result="404",le="1"} 1
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="GetDatabaseInfo",result="404",le="2.5"} 1
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="GetDatabaseInfo",result="404",le="5"} 1
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="GetDatabaseInfo",result="404",le="10"} 1
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="GetDatabaseInfo",result="404",le="+Inf"} 1
+couchdb_processing_time_sum{database="mychannel_lscc",function_name="GetDatabaseInfo",result="404"} 0.000533352
+couchdb_processing_time_count{database="mychannel_lscc",function_name="GetDatabaseInfo",result="404"} 1
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="ReadDoc",result="404",le="0.005"} 2
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="ReadDoc",result="404",le="0.01"} 3
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="ReadDoc",result="404",le="0.025"} 3
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="ReadDoc",result="404",le="0.05"} 3
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="ReadDoc",result="404",le="0.1"} 3
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="ReadDoc",result="404",le="0.25"} 3
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="ReadDoc",result="404",le="0.5"} 3
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="ReadDoc",result="404",le="1"} 3
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="ReadDoc",result="404",le="2.5"} 3
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="ReadDoc",result="404",le="5"} 3
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="ReadDoc",result="404",le="10"} 3
+couchdb_processing_time_bucket{database="mychannel_lscc",function_name="ReadDoc",result="404",le="+Inf"} 3
+couchdb_processing_time_sum{database="mychannel_lscc",function_name="ReadDoc",result="404"} 0.011542301000000001
+couchdb_processing_time_count{database="mychannel_lscc",function_name="ReadDoc",result="404"} 3
+# HELP deliver_blocks_sent The number of blocks sent by the deliver service.
+# TYPE deliver_blocks_sent counter
+deliver_blocks_sent{channel="mychannel",data_type="filtered_block",filtered="true"} 274
+# HELP deliver_requests_completed The number of deliver requests that have been completed.
+# TYPE deliver_requests_completed counter
+deliver_requests_completed{channel="mychannel",data_type="filtered_block",filtered="true",success="false"} 7
+# HELP deliver_requests_received The number of deliver requests that have been received.
+# TYPE deliver_requests_received counter
+deliver_requests_received{channel="mychannel",data_type="filtered_block",filtered="true"} 7
+# HELP deliver_streams_closed The number of GRPC streams that have been closed for the deliver service.
+# TYPE deliver_streams_closed counter
+deliver_streams_closed 7
+# HELP deliver_streams_opened The number of GRPC streams that have been opened for the deliver service.
+# TYPE deliver_streams_opened counter
+deliver_streams_opened 7
+# HELP dockercontroller_chaincode_container_build_duration The time to build a chaincode image in seconds.
+# TYPE dockercontroller_chaincode_container_build_duration histogram
+dockercontroller_chaincode_container_build_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",success="true",le="0.005"} 0
+dockercontroller_chaincode_container_build_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",success="true",le="0.01"} 0
+dockercontroller_chaincode_container_build_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",success="true",le="0.025"} 0
+dockercontroller_chaincode_container_build_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",success="true",le="0.05"} 0
+dockercontroller_chaincode_container_build_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",success="true",le="0.1"} 0
+dockercontroller_chaincode_container_build_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",success="true",le="0.25"} 0
+dockercontroller_chaincode_container_build_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",success="true",le="0.5"} 0
+dockercontroller_chaincode_container_build_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",success="true",le="1"} 0
+dockercontroller_chaincode_container_build_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",success="true",le="2.5"} 0
+dockercontroller_chaincode_container_build_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",success="true",le="5"} 1
+dockercontroller_chaincode_container_build_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",success="true",le="10"} 1
+dockercontroller_chaincode_container_build_duration_bucket{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",success="true",le="+Inf"} 1
+dockercontroller_chaincode_container_build_duration_sum{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",success="true"} 3.154475261
+dockercontroller_chaincode_container_build_duration_count{chaincode="fabcar_1.0:2587fba01bf9036b059189e27776dee31c223ea87a91081b48e8d672ced4317e",success="true"} 1
+# HELP endorser_endorsement_failures The number of failed endorsements.
+# TYPE endorser_endorsement_failures counter
+endorser_endorsement_failures{chaincode="_lifecycle",chaincodeerror="true",channel="mychannel"} 1
+# HELP endorser_proposal_duration The time to complete a proposal.
+# TYPE endorser_proposal_duration histogram
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="",success="true",le="0.005"} 2
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="",success="true",le="0.01"} 2
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="",success="true",le="0.025"} 2
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="",success="true",le="0.05"} 2
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="",success="true",le="0.1"} 2
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="",success="true",le="0.25"} 2
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="",success="true",le="0.5"} 2
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="",success="true",le="1"} 2
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="",success="true",le="2.5"} 2
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="",success="true",le="5"} 3
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="",success="true",le="10"} 3
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="",success="true",le="+Inf"} 3
+endorser_proposal_duration_sum{chaincode="_lifecycle",channel="",success="true"} 3.191706898
+endorser_proposal_duration_count{chaincode="_lifecycle",channel="",success="true"} 3
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="mychannel",success="false",le="0.005"} 1
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="mychannel",success="false",le="0.01"} 1
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="mychannel",success="false",le="0.025"} 1
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="mychannel",success="false",le="0.05"} 1
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="mychannel",success="false",le="0.1"} 1
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="mychannel",success="false",le="0.25"} 1
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="mychannel",success="false",le="0.5"} 1
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="mychannel",success="false",le="1"} 1
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="mychannel",success="false",le="2.5"} 1
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="mychannel",success="false",le="5"} 1
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="mychannel",success="false",le="10"} 1
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="mychannel",success="false",le="+Inf"} 1
+endorser_proposal_duration_sum{chaincode="_lifecycle",channel="mychannel",success="false"} 0.001706898
+endorser_proposal_duration_count{chaincode="_lifecycle",channel="mychannel",success="false"} 1
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="mychannel",success="true",le="0.005"} 0
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="mychannel",success="true",le="0.01"} 0
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="mychannel",success="true",le="0.025"} 1
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="mychannel",success="true",le="0.05"} 2
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="mychannel",success="true",le="0.1"} 2
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="mychannel",success="true",le="0.25"} 2
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="mychannel",success="true",le="0.5"} 2
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="mychannel",success="true",le="1"} 2
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="mychannel",success="true",le="2.5"} 2
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="mychannel",success="true",le="5"} 2
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="mychannel",success="true",le="10"} 2
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="mychannel",success="true",le="+Inf"} 2
+endorser_proposal_duration_sum{chaincode="_lifecycle",channel="mychannel",success="true"} 0.059574805
+endorser_proposal_duration_count{chaincode="_lifecycle",channel="mychannel",success="true"} 2
+endorser_proposal_duration_bucket{chaincode="cscc",channel="",success="true",le="0.005"} 0
+endorser_proposal_duration_bucket{chaincode="cscc",channel="",success="true",le="0.01"} 0
+endorser_proposal_duration_bucket{chaincode="cscc",channel="",success="true",le="0.025"} 0
+endorser_proposal_duration_bucket{chaincode="cscc",channel="",success="true",le="0.05"} 0
+endorser_proposal_duration_bucket{chaincode="cscc",channel="",success="true",le="0.1"} 1
+endorser_proposal_duration_bucket{chaincode="cscc",channel="",success="true",le="0.25"} 1
+endorser_proposal_duration_bucket{chaincode="cscc",channel="",success="true",le="0.5"} 1
+endorser_proposal_duration_bucket{chaincode="cscc",channel="",success="true",le="1"} 1
+endorser_proposal_duration_bucket{chaincode="cscc",channel="",success="true",le="2.5"} 1
+endorser_proposal_duration_bucket{chaincode="cscc",channel="",success="true",le="5"} 1
+endorser_proposal_duration_bucket{chaincode="cscc",channel="",success="true",le="10"} 1
+endorser_proposal_duration_bucket{chaincode="cscc",channel="",success="true",le="+Inf"} 1
+endorser_proposal_duration_sum{chaincode="cscc",channel="",success="true"} 0.076040669
+endorser_proposal_duration_count{chaincode="cscc",channel="",success="true"} 1
+endorser_proposal_duration_bucket{chaincode="fabcar",channel="mychannel",success="true",le="0.005"} 378
+endorser_proposal_duration_bucket{chaincode="fabcar",channel="mychannel",success="true",le="0.01"} 464
+endorser_proposal_duration_bucket{chaincode="fabcar",channel="mychannel",success="true",le="0.025"} 484
+endorser_proposal_duration_bucket{chaincode="fabcar",channel="mychannel",success="true",le="0.05"} 484
+endorser_proposal_duration_bucket{chaincode="fabcar",channel="mychannel",success="true",le="0.1"} 484
+endorser_proposal_duration_bucket{chaincode="fabcar",channel="mychannel",success="true",le="0.25"} 484
+endorser_proposal_duration_bucket{chaincode="fabcar",channel="mychannel",success="true",le="0.5"} 484
+endorser_proposal_duration_bucket{chaincode="fabcar",channel="mychannel",success="true",le="1"} 484
+endorser_proposal_duration_bucket{chaincode="fabcar",channel="mychannel",success="true",le="2.5"} 485
+endorser_proposal_duration_bucket{chaincode="fabcar",channel="mychannel",success="true",le="5"} 485
+endorser_proposal_duration_bucket{chaincode="fabcar",channel="mychannel",success="true",le="10"} 485
+endorser_proposal_duration_bucket{chaincode="fabcar",channel="mychannel",success="true",le="+Inf"} 485
+endorser_proposal_duration_sum{chaincode="fabcar",channel="mychannel",success="true"} 3.550962991
+endorser_proposal_duration_count{chaincode="fabcar",channel="mychannel",success="true"} 485
+endorser_proposal_duration_bucket{chaincode="qscc",channel="",success="true",le="0.005"} 3
+endorser_proposal_duration_bucket{chaincode="qscc",channel="",success="true",le="0.01"} 3
+endorser_proposal_duration_bucket{chaincode="qscc",channel="",success="true",le="0.025"} 3
+endorser_proposal_duration_bucket{chaincode="qscc",channel="",success="true",le="0.05"} 3
+endorser_proposal_duration_bucket{chaincode="qscc",channel="",success="true",le="0.1"} 3
+endorser_proposal_duration_bucket{chaincode="qscc",channel="",success="true",le="0.25"} 3
+endorser_proposal_duration_bucket{chaincode="qscc",channel="",success="true",le="0.5"} 3
+endorser_proposal_duration_bucket{chaincode="qscc",channel="",success="true",le="1"} 3
+endorser_proposal_duration_bucket{chaincode="qscc",channel="",success="true",le="2.5"} 3
+endorser_proposal_duration_bucket{chaincode="qscc",channel="",success="true",le="5"} 3
+endorser_proposal_duration_bucket{chaincode="qscc",channel="",success="true",le="10"} 3
+endorser_proposal_duration_bucket{chaincode="qscc",channel="",success="true",le="+Inf"} 3
+endorser_proposal_duration_sum{chaincode="qscc",channel="",success="true"} 0.001666627
+endorser_proposal_duration_count{chaincode="qscc",channel="",success="true"} 3
+# HELP endorser_proposals_received The number of proposals received.
+# TYPE endorser_proposals_received counter
+endorser_proposals_received 495
+# HELP endorser_successful_proposals The number of successful proposals.
+# TYPE endorser_successful_proposals counter
+endorser_successful_proposals 494
+# HELP fabric_version The active version of Fabric.
+# TYPE fabric_version gauge
+fabric_version{version="v2.5.12"} 1
+# HELP go_gc_duration_seconds A summary of the wall-time pause (stop-the-world) duration in garbage collection cycles.
+# TYPE go_gc_duration_seconds summary
+go_gc_duration_seconds{quantile="0"} 3.3643e-05
+go_gc_duration_seconds{quantile="0.25"} 5.2876e-05
+go_gc_duration_seconds{quantile="0.5"} 7.1383e-05
+go_gc_duration_seconds{quantile="0.75"} 0.000115711
+go_gc_duration_seconds{quantile="1"} 0.008281077
+go_gc_duration_seconds_sum 0.021947452
+go_gc_duration_seconds_count 46
+# HELP go_gc_gogc_percent Heap size target percentage configured by the user, otherwise 100. This value is set by the GOGC environment variable, and the runtime/debug.SetGCPercent function. Sourced from /gc/gogc:percent
+# TYPE go_gc_gogc_percent gauge
+go_gc_gogc_percent 100
+# HELP go_gc_gomemlimit_bytes Go runtime memory limit configured by the user, otherwise math.MaxInt64. This value is set by the GOMEMLIMIT environment variable, and the runtime/debug.SetMemoryLimit function. Sourced from /gc/gomemlimit:bytes
+# TYPE go_gc_gomemlimit_bytes gauge
+go_gc_gomemlimit_bytes 9.223372036854776e+18
+# HELP go_goroutines Number of goroutines that currently exist.
+# TYPE go_goroutines gauge
+go_goroutines 159
+# HELP go_info Information about the Go environment.
+# TYPE go_info gauge
+go_info{version="go1.23.5"} 1
+# HELP go_memstats_alloc_bytes Number of bytes allocated in heap and currently in use. Equals to /memory/classes/heap/objects:bytes.
+# TYPE go_memstats_alloc_bytes gauge
+go_memstats_alloc_bytes 7.3741792e+07
+# HELP go_memstats_alloc_bytes_total Total number of bytes allocated in heap until now, even if released already. Equals to /gc/heap/allocs:bytes.
+# TYPE go_memstats_alloc_bytes_total counter
+go_memstats_alloc_bytes_total 2.070048336e+09
+# HELP go_memstats_buck_hash_sys_bytes Number of bytes used by the profiling bucket hash table. Equals to /memory/classes/profiling/buckets:bytes.
+# TYPE go_memstats_buck_hash_sys_bytes gauge
+go_memstats_buck_hash_sys_bytes 1.819162e+06
+# HELP go_memstats_frees_total Total number of heap objects frees. Equals to /gc/heap/frees:objects + /gc/heap/tiny/allocs:objects.
+# TYPE go_memstats_frees_total counter
+go_memstats_frees_total 9.604336e+06
+# HELP go_memstats_gc_sys_bytes Number of bytes used for garbage collection system metadata. Equals to /memory/classes/metadata/other:bytes.
+# TYPE go_memstats_gc_sys_bytes gauge
+go_memstats_gc_sys_bytes 4.629248e+06
+# HELP go_memstats_heap_alloc_bytes Number of heap bytes allocated and currently in use, same as go_memstats_alloc_bytes. Equals to /memory/classes/heap/objects:bytes.
+# TYPE go_memstats_heap_alloc_bytes gauge
+go_memstats_heap_alloc_bytes 7.3741792e+07
+# HELP go_memstats_heap_idle_bytes Number of heap bytes waiting to be used. Equals to /memory/classes/heap/released:bytes + /memory/classes/heap/free:bytes.
+# TYPE go_memstats_heap_idle_bytes gauge
+go_memstats_heap_idle_bytes 7.1327744e+07
+# HELP go_memstats_heap_inuse_bytes Number of heap bytes that are in use. Equals to /memory/classes/heap/objects:bytes + /memory/classes/heap/unused:bytes
+# TYPE go_memstats_heap_inuse_bytes gauge
+go_memstats_heap_inuse_bytes 8.5942272e+07
+# HELP go_memstats_heap_objects Number of currently allocated objects. Equals to /gc/heap/objects:objects.
+# TYPE go_memstats_heap_objects gauge
+go_memstats_heap_objects 82375
+# HELP go_memstats_heap_released_bytes Number of heap bytes released to OS. Equals to /memory/classes/heap/released:bytes.
+# TYPE go_memstats_heap_released_bytes gauge
+go_memstats_heap_released_bytes 2.0332544e+07
+# HELP go_memstats_heap_sys_bytes Number of heap bytes obtained from system. Equals to /memory/classes/heap/objects:bytes + /memory/classes/heap/unused:bytes + /memory/classes/heap/released:bytes + /memory/classes/heap/free:bytes.
+# TYPE go_memstats_heap_sys_bytes gauge
+go_memstats_heap_sys_bytes 1.57270016e+08
+# HELP go_memstats_last_gc_time_seconds Number of seconds since 1970 of last garbage collection.
+# TYPE go_memstats_last_gc_time_seconds gauge
+go_memstats_last_gc_time_seconds 1.7673678753931997e+09
+# HELP go_memstats_mallocs_total Total number of heap objects allocated, both live and gc-ed. Semantically a counter version for go_memstats_heap_objects gauge. Equals to /gc/heap/allocs:objects + /gc/heap/tiny/allocs:objects.
+# TYPE go_memstats_mallocs_total counter
+go_memstats_mallocs_total 9.686711e+06
+# HELP go_memstats_mcache_inuse_bytes Number of bytes in use by mcache structures. Equals to /memory/classes/metadata/mcache/inuse:bytes.
+# TYPE go_memstats_mcache_inuse_bytes gauge
+go_memstats_mcache_inuse_bytes 9600
+# HELP go_memstats_mcache_sys_bytes Number of bytes used for mcache structures obtained from system. Equals to /memory/classes/metadata/mcache/inuse:bytes + /memory/classes/metadata/mcache/free:bytes.
+# TYPE go_memstats_mcache_sys_bytes gauge
+go_memstats_mcache_sys_bytes 15600
+# HELP go_memstats_mspan_inuse_bytes Number of bytes in use by mspan structures. Equals to /memory/classes/metadata/mspan/inuse:bytes.
+# TYPE go_memstats_mspan_inuse_bytes gauge
+go_memstats_mspan_inuse_bytes 521280
+# HELP go_memstats_mspan_sys_bytes Number of bytes used for mspan structures obtained from system. Equals to /memory/classes/metadata/mspan/inuse:bytes + /memory/classes/metadata/mspan/free:bytes.
+# TYPE go_memstats_mspan_sys_bytes gauge
+go_memstats_mspan_sys_bytes 1.07712e+06
+# HELP go_memstats_next_gc_bytes Number of heap bytes when next garbage collection will take place. Equals to /gc/heap/goal:bytes.
+# TYPE go_memstats_next_gc_bytes gauge
+go_memstats_next_gc_bytes 1.27585768e+08
+# HELP go_memstats_other_sys_bytes Number of bytes used for other system allocations. Equals to /memory/classes/other:bytes.
+# TYPE go_memstats_other_sys_bytes gauge
+go_memstats_other_sys_bytes 1.514398e+06
+# HELP go_memstats_stack_inuse_bytes Number of bytes obtained from system for stack allocator in non-CGO environments. Equals to /memory/classes/heap/stacks:bytes.
+# TYPE go_memstats_stack_inuse_bytes gauge
+go_memstats_stack_inuse_bytes 2.064384e+06
+# HELP go_memstats_stack_sys_bytes Number of bytes obtained from system for stack allocator. Equals to /memory/classes/heap/stacks:bytes + /memory/classes/os-stacks:bytes.
+# TYPE go_memstats_stack_sys_bytes gauge
+go_memstats_stack_sys_bytes 2.064384e+06
+# HELP go_memstats_sys_bytes Number of bytes obtained from system. Equals to /memory/classes/total:byte.
+# TYPE go_memstats_sys_bytes gauge
+go_memstats_sys_bytes 1.68389928e+08
+# HELP go_sched_gomaxprocs_threads The current runtime.GOMAXPROCS setting, or the number of operating system threads that can execute user-level Go code simultaneously. Sourced from /sched/gomaxprocs:threads
+# TYPE go_sched_gomaxprocs_threads gauge
+go_sched_gomaxprocs_threads 8
+# HELP go_threads Number of OS threads created.
+# TYPE go_threads gauge
+go_threads 15
+# HELP gossip_comm_messages_received Number of messages received
+# TYPE gossip_comm_messages_received counter
+gossip_comm_messages_received 11532
+# HELP gossip_comm_messages_sent Number of messages sent
+# TYPE gossip_comm_messages_sent counter
+gossip_comm_messages_sent 11535
+# HELP gossip_membership_total_peers_known Total known peers
+# TYPE gossip_membership_total_peers_known gauge
+gossip_membership_total_peers_known{channel="mychannel"} 3
+# HELP gossip_payload_buffer_size Size of the payload buffer
+# TYPE gossip_payload_buffer_size gauge
+gossip_payload_buffer_size{channel="mychannel"} 0
+# HELP gossip_privdata_commit_block_duration Time it takes to commit private data and the corresponding block (in seconds)
+# TYPE gossip_privdata_commit_block_duration histogram
+gossip_privdata_commit_block_duration_bucket{channel="mychannel",le="0.005"} 0
+gossip_privdata_commit_block_duration_bucket{channel="mychannel",le="0.01"} 0
+gossip_privdata_commit_block_duration_bucket{channel="mychannel",le="0.025"} 38
+gossip_privdata_commit_block_duration_bucket{channel="mychannel",le="0.05"} 57
+gossip_privdata_commit_block_duration_bucket{channel="mychannel",le="0.1"} 58
+gossip_privdata_commit_block_duration_bucket{channel="mychannel",le="0.25"} 58
+gossip_privdata_commit_block_duration_bucket{channel="mychannel",le="0.5"} 58
+gossip_privdata_commit_block_duration_bucket{channel="mychannel",le="1"} 58
+gossip_privdata_commit_block_duration_bucket{channel="mychannel",le="2.5"} 58
+gossip_privdata_commit_block_duration_bucket{channel="mychannel",le="5"} 58
+gossip_privdata_commit_block_duration_bucket{channel="mychannel",le="10"} 58
+gossip_privdata_commit_block_duration_bucket{channel="mychannel",le="+Inf"} 58
+gossip_privdata_commit_block_duration_sum{channel="mychannel"} 1.4069524100000002
+gossip_privdata_commit_block_duration_count{channel="mychannel"} 58
+# HELP gossip_privdata_list_missing_duration Time it takes to list the missing private data (in seconds)
+# TYPE gossip_privdata_list_missing_duration histogram
+gossip_privdata_list_missing_duration_bucket{channel="mychannel",le="0.005"} 58
+gossip_privdata_list_missing_duration_bucket{channel="mychannel",le="0.01"} 58
+gossip_privdata_list_missing_duration_bucket{channel="mychannel",le="0.025"} 58
+gossip_privdata_list_missing_duration_bucket{channel="mychannel",le="0.05"} 58
+gossip_privdata_list_missing_duration_bucket{channel="mychannel",le="0.1"} 58
+gossip_privdata_list_missing_duration_bucket{channel="mychannel",le="0.25"} 58
+gossip_privdata_list_missing_duration_bucket{channel="mychannel",le="0.5"} 58
+gossip_privdata_list_missing_duration_bucket{channel="mychannel",le="1"} 58
+gossip_privdata_list_missing_duration_bucket{channel="mychannel",le="2.5"} 58
+gossip_privdata_list_missing_duration_bucket{channel="mychannel",le="5"} 58
+gossip_privdata_list_missing_duration_bucket{channel="mychannel",le="10"} 58
+gossip_privdata_list_missing_duration_bucket{channel="mychannel",le="+Inf"} 58
+gossip_privdata_list_missing_duration_sum{channel="mychannel"} 0.000453157
+gossip_privdata_list_missing_duration_count{channel="mychannel"} 58
+# HELP gossip_privdata_purge_duration Time it takes to purge private data (in seconds)
+# TYPE gossip_privdata_purge_duration histogram
+gossip_privdata_purge_duration_bucket{channel="mychannel",le="0.005"} 58
+gossip_privdata_purge_duration_bucket{channel="mychannel",le="0.01"} 58
+gossip_privdata_purge_duration_bucket{channel="mychannel",le="0.025"} 58
+gossip_privdata_purge_duration_bucket{channel="mychannel",le="0.05"} 58
+gossip_privdata_purge_duration_bucket{channel="mychannel",le="0.1"} 58
+gossip_privdata_purge_duration_bucket{channel="mychannel",le="0.25"} 58
+gossip_privdata_purge_duration_bucket{channel="mychannel",le="0.5"} 58
+gossip_privdata_purge_duration_bucket{channel="mychannel",le="1"} 58
+gossip_privdata_purge_duration_bucket{channel="mychannel",le="2.5"} 58
+gossip_privdata_purge_duration_bucket{channel="mychannel",le="5"} 58
+gossip_privdata_purge_duration_bucket{channel="mychannel",le="10"} 58
+gossip_privdata_purge_duration_bucket{channel="mychannel",le="+Inf"} 58
+gossip_privdata_purge_duration_sum{channel="mychannel"} 0.0007235420000000002
+gossip_privdata_purge_duration_count{channel="mychannel"} 58
+# HELP gossip_privdata_reconciliation_duration Time it takes for reconciliation to complete (in seconds)
+# TYPE gossip_privdata_reconciliation_duration histogram
+gossip_privdata_reconciliation_duration_bucket{channel="mychannel",le="0.005"} 27
+gossip_privdata_reconciliation_duration_bucket{channel="mychannel",le="0.01"} 27
+gossip_privdata_reconciliation_duration_bucket{channel="mychannel",le="0.025"} 27
+gossip_privdata_reconciliation_duration_bucket{channel="mychannel",le="0.05"} 27
+gossip_privdata_reconciliation_duration_bucket{channel="mychannel",le="0.1"} 27
+gossip_privdata_reconciliation_duration_bucket{channel="mychannel",le="0.25"} 27
+gossip_privdata_reconciliation_duration_bucket{channel="mychannel",le="0.5"} 27
+gossip_privdata_reconciliation_duration_bucket{channel="mychannel",le="1"} 27
+gossip_privdata_reconciliation_duration_bucket{channel="mychannel",le="2.5"} 27
+gossip_privdata_reconciliation_duration_bucket{channel="mychannel",le="5"} 27
+gossip_privdata_reconciliation_duration_bucket{channel="mychannel",le="10"} 27
+gossip_privdata_reconciliation_duration_bucket{channel="mychannel",le="+Inf"} 27
+gossip_privdata_reconciliation_duration_sum{channel="mychannel"} 0.0009951270000000002
+gossip_privdata_reconciliation_duration_count{channel="mychannel"} 27
+# HELP gossip_privdata_send_duration Time it takes to send a missing private data element (in seconds)
+# TYPE gossip_privdata_send_duration histogram
+gossip_privdata_send_duration_bucket{channel="mychannel",le="0.005"} 1
+gossip_privdata_send_duration_bucket{channel="mychannel",le="0.01"} 1
+gossip_privdata_send_duration_bucket{channel="mychannel",le="0.025"} 1
+gossip_privdata_send_duration_bucket{channel="mychannel",le="0.05"} 1
+gossip_privdata_send_duration_bucket{channel="mychannel",le="0.1"} 1
+gossip_privdata_send_duration_bucket{channel="mychannel",le="0.25"} 1
+gossip_privdata_send_duration_bucket{channel="mychannel",le="0.5"} 1
+gossip_privdata_send_duration_bucket{channel="mychannel",le="1"} 1
+gossip_privdata_send_duration_bucket{channel="mychannel",le="2.5"} 1
+gossip_privdata_send_duration_bucket{channel="mychannel",le="5"} 1
+gossip_privdata_send_duration_bucket{channel="mychannel",le="10"} 1
+gossip_privdata_send_duration_bucket{channel="mychannel",le="+Inf"} 1
+gossip_privdata_send_duration_sum{channel="mychannel"} 0.001413669
+gossip_privdata_send_duration_count{channel="mychannel"} 1
+# HELP gossip_privdata_validation_duration Time it takes to validate a block (in seconds)
+# TYPE gossip_privdata_validation_duration histogram
+gossip_privdata_validation_duration_bucket{channel="mychannel",le="0.005"} 6
+gossip_privdata_validation_duration_bucket{channel="mychannel",le="0.01"} 23
+gossip_privdata_validation_duration_bucket{channel="mychannel",le="0.025"} 57
+gossip_privdata_validation_duration_bucket{channel="mychannel",le="0.05"} 58
+gossip_privdata_validation_duration_bucket{channel="mychannel",le="0.1"} 58
+gossip_privdata_validation_duration_bucket{channel="mychannel",le="0.25"} 58
+gossip_privdata_validation_duration_bucket{channel="mychannel",le="0.5"} 58
+gossip_privdata_validation_duration_bucket{channel="mychannel",le="1"} 58
+gossip_privdata_validation_duration_bucket{channel="mychannel",le="2.5"} 58
+gossip_privdata_validation_duration_bucket{channel="mychannel",le="5"} 58
+gossip_privdata_validation_duration_bucket{channel="mychannel",le="10"} 58
+gossip_privdata_validation_duration_bucket{channel="mychannel",le="+Inf"} 58
+gossip_privdata_validation_duration_sum{channel="mychannel"} 0.681033465
+gossip_privdata_validation_duration_count{channel="mychannel"} 58
+# HELP gossip_state_commit_duration Time it takes to commit a block in seconds
+# TYPE gossip_state_commit_duration histogram
+gossip_state_commit_duration_bucket{channel="mychannel",le="0.005"} 0
+gossip_state_commit_duration_bucket{channel="mychannel",le="0.01"} 0
+gossip_state_commit_duration_bucket{channel="mychannel",le="0.025"} 3
+gossip_state_commit_duration_bucket{channel="mychannel",le="0.05"} 54
+gossip_state_commit_duration_bucket{channel="mychannel",le="0.1"} 58
+gossip_state_commit_duration_bucket{channel="mychannel",le="0.25"} 58
+gossip_state_commit_duration_bucket{channel="mychannel",le="0.5"} 58
+gossip_state_commit_duration_bucket{channel="mychannel",le="1"} 58
+gossip_state_commit_duration_bucket{channel="mychannel",le="2.5"} 58
+gossip_state_commit_duration_bucket{channel="mychannel",le="5"} 58
+gossip_state_commit_duration_bucket{channel="mychannel",le="10"} 58
+gossip_state_commit_duration_bucket{channel="mychannel",le="+Inf"} 58
+gossip_state_commit_duration_sum{channel="mychannel"} 2.1410742349999996
+gossip_state_commit_duration_count{channel="mychannel"} 58
+# HELP gossip_state_height Current ledger height
+# TYPE gossip_state_height gauge
+gossip_state_height{channel="mychannel"} 59
+# HELP grpc_comm_conn_closed gRPC connections closed. Open minus closed is the active number of connections.
+# TYPE grpc_comm_conn_closed counter
+grpc_comm_conn_closed 49
+# HELP grpc_comm_conn_opened gRPC connections opened. Open minus closed is the active number of connections.
+# TYPE grpc_comm_conn_opened counter
+grpc_comm_conn_opened 52
+# HELP grpc_server_stream_messages_received The number of stream messages received.
+# TYPE grpc_server_stream_messages_received counter
+grpc_server_stream_messages_received{method="DeliverFiltered",service="protos_Deliver"} 7
+grpc_server_stream_messages_received{method="GossipStream",service="gossip_Gossip"} 11541
+# HELP grpc_server_stream_messages_sent The number of stream messages sent.
+# TYPE grpc_server_stream_messages_sent counter
+grpc_server_stream_messages_sent{method="DeliverFiltered",service="protos_Deliver"} 274
+grpc_server_stream_messages_sent{method="GossipStream",service="gossip_Gossip"} 11544
+# HELP grpc_server_stream_request_duration The time to complete a stream request.
+# TYPE grpc_server_stream_request_duration histogram
+grpc_server_stream_request_duration_bucket{code="OK",method="GossipStream",service="gossip_Gossip",le="0.005"} 6
+grpc_server_stream_request_duration_bucket{code="OK",method="GossipStream",service="gossip_Gossip",le="0.01"} 6
+grpc_server_stream_request_duration_bucket{code="OK",method="GossipStream",service="gossip_Gossip",le="0.025"} 6
+grpc_server_stream_request_duration_bucket{code="OK",method="GossipStream",service="gossip_Gossip",le="0.05"} 6
+grpc_server_stream_request_duration_bucket{code="OK",method="GossipStream",service="gossip_Gossip",le="0.1"} 6
+grpc_server_stream_request_duration_bucket{code="OK",method="GossipStream",service="gossip_Gossip",le="0.25"} 6
+grpc_server_stream_request_duration_bucket{code="OK",method="GossipStream",service="gossip_Gossip",le="0.5"} 6
+grpc_server_stream_request_duration_bucket{code="OK",method="GossipStream",service="gossip_Gossip",le="1"} 6
+grpc_server_stream_request_duration_bucket{code="OK",method="GossipStream",service="gossip_Gossip",le="2.5"} 6
+grpc_server_stream_request_duration_bucket{code="OK",method="GossipStream",service="gossip_Gossip",le="5"} 6
+grpc_server_stream_request_duration_bucket{code="OK",method="GossipStream",service="gossip_Gossip",le="10"} 6
+grpc_server_stream_request_duration_bucket{code="OK",method="GossipStream",service="gossip_Gossip",le="+Inf"} 6
+grpc_server_stream_request_duration_sum{code="OK",method="GossipStream",service="gossip_Gossip"} 0.006627617000000001
+grpc_server_stream_request_duration_count{code="OK",method="GossipStream",service="gossip_Gossip"} 6
+grpc_server_stream_request_duration_bucket{code="Unknown",method="DeliverFiltered",service="protos_Deliver",le="0.005"} 0
+grpc_server_stream_request_duration_bucket{code="Unknown",method="DeliverFiltered",service="protos_Deliver",le="0.01"} 0
+grpc_server_stream_request_duration_bucket{code="Unknown",method="DeliverFiltered",service="protos_Deliver",le="0.025"} 0
+grpc_server_stream_request_duration_bucket{code="Unknown",method="DeliverFiltered",service="protos_Deliver",le="0.05"} 0
+grpc_server_stream_request_duration_bucket{code="Unknown",method="DeliverFiltered",service="protos_Deliver",le="0.1"} 0
+grpc_server_stream_request_duration_bucket{code="Unknown",method="DeliverFiltered",service="protos_Deliver",le="0.25"} 0
+grpc_server_stream_request_duration_bucket{code="Unknown",method="DeliverFiltered",service="protos_Deliver",le="0.5"} 0
+grpc_server_stream_request_duration_bucket{code="Unknown",method="DeliverFiltered",service="protos_Deliver",le="1"} 0
+grpc_server_stream_request_duration_bucket{code="Unknown",method="DeliverFiltered",service="protos_Deliver",le="2.5"} 0
+grpc_server_stream_request_duration_bucket{code="Unknown",method="DeliverFiltered",service="protos_Deliver",le="5"} 0
+grpc_server_stream_request_duration_bucket{code="Unknown",method="DeliverFiltered",service="protos_Deliver",le="10"} 0
+grpc_server_stream_request_duration_bucket{code="Unknown",method="DeliverFiltered",service="protos_Deliver",le="+Inf"} 7
+grpc_server_stream_request_duration_sum{code="Unknown",method="DeliverFiltered",service="protos_Deliver"} 7611.685548841
+grpc_server_stream_request_duration_count{code="Unknown",method="DeliverFiltered",service="protos_Deliver"} 7
+# HELP grpc_server_stream_requests_completed The number of stream requests completed.
+# TYPE grpc_server_stream_requests_completed counter
+grpc_server_stream_requests_completed{code="OK",method="GossipStream",service="gossip_Gossip"} 6
+grpc_server_stream_requests_completed{code="Unknown",method="DeliverFiltered",service="protos_Deliver"} 7
+# HELP grpc_server_stream_requests_received The number of stream requests received.
+# TYPE grpc_server_stream_requests_received counter
+grpc_server_stream_requests_received{method="DeliverFiltered",service="protos_Deliver"} 7
+grpc_server_stream_requests_received{method="GossipStream",service="gossip_Gossip"} 9
+# HELP grpc_server_unary_request_duration The time to complete a unary request.
+# TYPE grpc_server_unary_request_duration histogram
+grpc_server_unary_request_duration_bucket{code="OK",method="Discover",service="discovery_Discovery",le="0.005"} 13
+grpc_server_unary_request_duration_bucket{code="OK",method="Discover",service="discovery_Discovery",le="0.01"} 14
+grpc_server_unary_request_duration_bucket{code="OK",method="Discover",service="discovery_Discovery",le="0.025"} 15
+grpc_server_unary_request_duration_bucket{code="OK",method="Discover",service="discovery_Discovery",le="0.05"} 15
+grpc_server_unary_request_duration_bucket{code="OK",method="Discover",service="discovery_Discovery",le="0.1"} 15
+grpc_server_unary_request_duration_bucket{code="OK",method="Discover",service="discovery_Discovery",le="0.25"} 15
+grpc_server_unary_request_duration_bucket{code="OK",method="Discover",service="discovery_Discovery",le="0.5"} 15
+grpc_server_unary_request_duration_bucket{code="OK",method="Discover",service="discovery_Discovery",le="1"} 15
+grpc_server_unary_request_duration_bucket{code="OK",method="Discover",service="discovery_Discovery",le="2.5"} 15
+grpc_server_unary_request_duration_bucket{code="OK",method="Discover",service="discovery_Discovery",le="5"} 15
+grpc_server_unary_request_duration_bucket{code="OK",method="Discover",service="discovery_Discovery",le="10"} 15
+grpc_server_unary_request_duration_bucket{code="OK",method="Discover",service="discovery_Discovery",le="+Inf"} 15
+grpc_server_unary_request_duration_sum{code="OK",method="Discover",service="discovery_Discovery"} 0.031287607
+grpc_server_unary_request_duration_count{code="OK",method="Discover",service="discovery_Discovery"} 15
+grpc_server_unary_request_duration_bucket{code="OK",method="Ping",service="gossip_Gossip",le="0.005"} 9
+grpc_server_unary_request_duration_bucket{code="OK",method="Ping",service="gossip_Gossip",le="0.01"} 9
+grpc_server_unary_request_duration_bucket{code="OK",method="Ping",service="gossip_Gossip",le="0.025"} 9
+grpc_server_unary_request_duration_bucket{code="OK",method="Ping",service="gossip_Gossip",le="0.05"} 9
+grpc_server_unary_request_duration_bucket{code="OK",method="Ping",service="gossip_Gossip",le="0.1"} 9
+grpc_server_unary_request_duration_bucket{code="OK",method="Ping",service="gossip_Gossip",le="0.25"} 9
+grpc_server_unary_request_duration_bucket{code="OK",method="Ping",service="gossip_Gossip",le="0.5"} 9
+grpc_server_unary_request_duration_bucket{code="OK",method="Ping",service="gossip_Gossip",le="1"} 9
+grpc_server_unary_request_duration_bucket{code="OK",method="Ping",service="gossip_Gossip",le="2.5"} 9
+grpc_server_unary_request_duration_bucket{code="OK",method="Ping",service="gossip_Gossip",le="5"} 9
+grpc_server_unary_request_duration_bucket{code="OK",method="Ping",service="gossip_Gossip",le="10"} 9
+grpc_server_unary_request_duration_bucket{code="OK",method="Ping",service="gossip_Gossip",le="+Inf"} 9
+grpc_server_unary_request_duration_sum{code="OK",method="Ping",service="gossip_Gossip"} 0.0006031370000000001
+grpc_server_unary_request_duration_count{code="OK",method="Ping",service="gossip_Gossip"} 9
+grpc_server_unary_request_duration_bucket{code="OK",method="ProcessProposal",service="protos_Endorser",le="0.005"} 377
+grpc_server_unary_request_duration_bucket{code="OK",method="ProcessProposal",service="protos_Endorser",le="0.01"} 470
+grpc_server_unary_request_duration_bucket{code="OK",method="ProcessProposal",service="protos_Endorser",le="0.025"} 491
+grpc_server_unary_request_duration_bucket{code="OK",method="ProcessProposal",service="protos_Endorser",le="0.05"} 492
+grpc_server_unary_request_duration_bucket{code="OK",method="ProcessProposal",service="protos_Endorser",le="0.1"} 493
+grpc_server_unary_request_duration_bucket{code="OK",method="ProcessProposal",service="protos_Endorser",le="0.25"} 493
+grpc_server_unary_request_duration_bucket{code="OK",method="ProcessProposal",service="protos_Endorser",le="0.5"} 493
+grpc_server_unary_request_duration_bucket{code="OK",method="ProcessProposal",service="protos_Endorser",le="1"} 493
+grpc_server_unary_request_duration_bucket{code="OK",method="ProcessProposal",service="protos_Endorser",le="2.5"} 494
+grpc_server_unary_request_duration_bucket{code="OK",method="ProcessProposal",service="protos_Endorser",le="5"} 495
+grpc_server_unary_request_duration_bucket{code="OK",method="ProcessProposal",service="protos_Endorser",le="10"} 495
+grpc_server_unary_request_duration_bucket{code="OK",method="ProcessProposal",service="protos_Endorser",le="+Inf"} 495
+grpc_server_unary_request_duration_sum{code="OK",method="ProcessProposal",service="protos_Endorser"} 6.939203933999991
+grpc_server_unary_request_duration_count{code="OK",method="ProcessProposal",service="protos_Endorser"} 495
+# HELP grpc_server_unary_requests_completed The number of unary requests completed.
+# TYPE grpc_server_unary_requests_completed counter
+grpc_server_unary_requests_completed{code="OK",method="Discover",service="discovery_Discovery"} 15
+grpc_server_unary_requests_completed{code="OK",method="Ping",service="gossip_Gossip"} 9
+grpc_server_unary_requests_completed{code="OK",method="ProcessProposal",service="protos_Endorser"} 495
+# HELP grpc_server_unary_requests_received The number of unary requests received.
+# TYPE grpc_server_unary_requests_received counter
+grpc_server_unary_requests_received{method="Discover",service="discovery_Discovery"} 15
+grpc_server_unary_requests_received{method="Ping",service="gossip_Gossip"} 9
+grpc_server_unary_requests_received{method="ProcessProposal",service="protos_Endorser"} 495
+# HELP ledger_block_processing_time Time taken in seconds for ledger block processing.
+# TYPE ledger_block_processing_time histogram
+ledger_block_processing_time_bucket{channel="mychannel",le="0.005"} 56
+ledger_block_processing_time_bucket{channel="mychannel",le="0.01"} 57
+ledger_block_processing_time_bucket{channel="mychannel",le="0.015"} 57
+ledger_block_processing_time_bucket{channel="mychannel",le="0.05"} 59
+ledger_block_processing_time_bucket{channel="mychannel",le="0.1"} 59
+ledger_block_processing_time_bucket{channel="mychannel",le="1"} 59
+ledger_block_processing_time_bucket{channel="mychannel",le="10"} 59
+ledger_block_processing_time_bucket{channel="mychannel",le="+Inf"} 59
+ledger_block_processing_time_sum{channel="mychannel"} 0.12185305900000004
+ledger_block_processing_time_count{channel="mychannel"} 59
+# HELP ledger_blockchain_height Height of the chain in blocks.
+# TYPE ledger_blockchain_height gauge
+ledger_blockchain_height{channel="mychannel"} 59
+# HELP ledger_blockstorage_and_pvtdata_commit_time Time taken in seconds for committing the block and private data to storage.
+# TYPE ledger_blockstorage_and_pvtdata_commit_time histogram
+ledger_blockstorage_and_pvtdata_commit_time_bucket{channel="mychannel",le="0.005"} 53
+ledger_blockstorage_and_pvtdata_commit_time_bucket{channel="mychannel",le="0.01"} 58
+ledger_blockstorage_and_pvtdata_commit_time_bucket{channel="mychannel",le="0.015"} 58
+ledger_blockstorage_and_pvtdata_commit_time_bucket{channel="mychannel",le="0.05"} 59
+ledger_blockstorage_and_pvtdata_commit_time_bucket{channel="mychannel",le="0.1"} 59
+ledger_blockstorage_and_pvtdata_commit_time_bucket{channel="mychannel",le="1"} 59
+ledger_blockstorage_and_pvtdata_commit_time_bucket{channel="mychannel",le="10"} 59
+ledger_blockstorage_and_pvtdata_commit_time_bucket{channel="mychannel",le="+Inf"} 59
+ledger_blockstorage_and_pvtdata_commit_time_sum{channel="mychannel"} 0.22376134499999994
+ledger_blockstorage_and_pvtdata_commit_time_count{channel="mychannel"} 59
+# HELP ledger_blockstorage_commit_time Time taken in seconds for committing the block to storage.
+# TYPE ledger_blockstorage_commit_time histogram
+ledger_blockstorage_commit_time_bucket{channel="mychannel",le="0.005"} 57
+ledger_blockstorage_commit_time_bucket{channel="mychannel",le="0.01"} 59
+ledger_blockstorage_commit_time_bucket{channel="mychannel",le="0.015"} 59
+ledger_blockstorage_commit_time_bucket{channel="mychannel",le="0.05"} 59
+ledger_blockstorage_commit_time_bucket{channel="mychannel",le="0.1"} 59
+ledger_blockstorage_commit_time_bucket{channel="mychannel",le="1"} 59
+ledger_blockstorage_commit_time_bucket{channel="mychannel",le="10"} 59
+ledger_blockstorage_commit_time_bucket{channel="mychannel",le="+Inf"} 59
+ledger_blockstorage_commit_time_sum{channel="mychannel"} 0.156559596
+ledger_blockstorage_commit_time_count{channel="mychannel"} 59
+# HELP ledger_statedb_commit_time Time taken in seconds for committing block changes to state db.
+# TYPE ledger_statedb_commit_time histogram
+ledger_statedb_commit_time_bucket{channel="mychannel",le="0.005"} 0
+ledger_statedb_commit_time_bucket{channel="mychannel",le="0.01"} 1
+ledger_statedb_commit_time_bucket{channel="mychannel",le="0.015"} 17
+ledger_statedb_commit_time_bucket{channel="mychannel",le="0.05"} 59
+ledger_statedb_commit_time_bucket{channel="mychannel",le="0.1"} 59
+ledger_statedb_commit_time_bucket{channel="mychannel",le="1"} 59
+ledger_statedb_commit_time_bucket{channel="mychannel",le="10"} 59
+ledger_statedb_commit_time_bucket{channel="mychannel",le="+Inf"} 59
+ledger_statedb_commit_time_sum{channel="mychannel"} 1.00541769
+ledger_statedb_commit_time_count{channel="mychannel"} 59
+# HELP ledger_transaction_count Number of transactions processed.
+# TYPE ledger_transaction_count counter
+ledger_transaction_count{chaincode="_lifecycle:syscc",channel="mychannel",transaction_type="ENDORSER_TRANSACTION",validation_code="VALID"} 3
+ledger_transaction_count{chaincode="fabcar:1.0",channel="mychannel",transaction_type="ENDORSER_TRANSACTION",validation_code="VALID"} 1001
+ledger_transaction_count{chaincode="unknown",channel="mychannel",transaction_type="CONFIG",validation_code="VALID"} 3
+# HELP logging_entries_checked Number of log entries checked against the active logging level
+# TYPE logging_entries_checked counter
+logging_entries_checked{level="info"} 1285
+logging_entries_checked{level="warn"} 5
+# HELP logging_entries_written Number of log entries that are written
+# TYPE logging_entries_written counter
+logging_entries_written{level="info"} 1285
+logging_entries_written{level="warn"} 5
+# HELP process_cpu_seconds_total Total user and system CPU time spent in seconds.
+# TYPE process_cpu_seconds_total counter
+process_cpu_seconds_total 38.45
+# HELP process_max_fds Maximum number of open file descriptors.
+# TYPE process_max_fds gauge
+process_max_fds 1.048576e+06
+# HELP process_network_receive_bytes_total Number of bytes received by the process over the network.
+# TYPE process_network_receive_bytes_total counter
+process_network_receive_bytes_total 3.1006924e+07
+# HELP process_network_transmit_bytes_total Number of bytes sent by the process over the network.
+# TYPE process_network_transmit_bytes_total counter
+process_network_transmit_bytes_total 2.7246166e+07
+# HELP process_open_fds Number of open file descriptors.
+# TYPE process_open_fds gauge
+process_open_fds 60
+# HELP process_resident_memory_bytes Resident memory size in bytes.
+# TYPE process_resident_memory_bytes gauge
+process_resident_memory_bytes 1.57782016e+08
+# HELP process_start_time_seconds Start time of the process since unix epoch in seconds.
+# TYPE process_start_time_seconds gauge
+process_start_time_seconds 1.76736624796e+09
+# HELP process_virtual_memory_bytes Virtual memory size in bytes.
+# TYPE process_virtual_memory_bytes gauge
+process_virtual_memory_bytes 2.488537088e+09
+# HELP process_virtual_memory_max_bytes Maximum amount of virtual memory available in bytes.
+# TYPE process_virtual_memory_max_bytes gauge
+process_virtual_memory_max_bytes 1.8446744073709552e+19
+# HELP promhttp_metric_handler_requests_in_flight Current number of scrapes being served.
+# TYPE promhttp_metric_handler_requests_in_flight gauge
+promhttp_metric_handler_requests_in_flight 1
+# HELP promhttp_metric_handler_requests_total Total number of scrapes by HTTP status code.
+# TYPE promhttp_metric_handler_requests_total counter
+promhttp_metric_handler_requests_total{code="200"} 110
+promhttp_metric_handler_requests_total{code="500"} 0
+promhttp_metric_handler_requests_total{code="503"} 0
