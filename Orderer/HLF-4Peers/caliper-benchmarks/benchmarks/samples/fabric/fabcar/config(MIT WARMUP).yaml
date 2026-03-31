@@ -1,0 +1,28 @@
+test:
+  name: fabcer create only
+  description: 5000 createCar tx at 25 TPS, ~2KB payload per tx
+  workers:
+    number: 5
+  rounds:
+    - label: warmup
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 10
+      workload:
+        module: benchmarks/samples/fabric/fabcar/createCar.js
+        
+    - label: create-10tps
+      description: "Create 5000 cars at 10 TPS"
+      txNumber: 5000
+      rateControl:
+        type: fixed-load  # or 'fixed-rate' in older Caliper; both accept 'tps'
+        opts:
+          tps: 25
+      workload:
+        module: benchmarks/samples/fabric/fabcar/createCar.js
+        
+        
+
+

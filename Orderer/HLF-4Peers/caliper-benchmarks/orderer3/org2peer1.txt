@@ -1,0 +1,521 @@
+# HELP chaincode_launch_duration The time to launch a chaincode.
+# TYPE chaincode_launch_duration histogram
+chaincode_launch_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",success="true",le="0.005"} 0
+chaincode_launch_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",success="true",le="0.01"} 0
+chaincode_launch_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",success="true",le="0.025"} 0
+chaincode_launch_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",success="true",le="0.05"} 0
+chaincode_launch_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",success="true",le="0.1"} 0
+chaincode_launch_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",success="true",le="0.25"} 0
+chaincode_launch_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",success="true",le="0.5"} 0
+chaincode_launch_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",success="true",le="1"} 0
+chaincode_launch_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",success="true",le="2.5"} 1
+chaincode_launch_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",success="true",le="5"} 1
+chaincode_launch_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",success="true",le="10"} 1
+chaincode_launch_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",success="true",le="+Inf"} 1
+chaincode_launch_duration_sum{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",success="true"} 2.013634679
+chaincode_launch_duration_count{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",success="true"} 1
+# HELP chaincode_shim_request_duration The time to complete chaincode shim requests.
+# TYPE chaincode_shim_request_duration histogram
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_PRIVATE_DATA_HASH",le="0.005"} 8
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_PRIVATE_DATA_HASH",le="0.01"} 8
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_PRIVATE_DATA_HASH",le="0.025"} 8
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_PRIVATE_DATA_HASH",le="0.05"} 8
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_PRIVATE_DATA_HASH",le="0.1"} 8
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_PRIVATE_DATA_HASH",le="0.25"} 8
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_PRIVATE_DATA_HASH",le="0.5"} 8
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_PRIVATE_DATA_HASH",le="1"} 8
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_PRIVATE_DATA_HASH",le="2.5"} 8
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_PRIVATE_DATA_HASH",le="5"} 8
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_PRIVATE_DATA_HASH",le="10"} 8
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_PRIVATE_DATA_HASH",le="+Inf"} 8
+chaincode_shim_request_duration_sum{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_PRIVATE_DATA_HASH"} 4.9829999999999996e-05
+chaincode_shim_request_duration_count{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_PRIVATE_DATA_HASH"} 8
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_STATE",le="0.005"} 5
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_STATE",le="0.01"} 5
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_STATE",le="0.025"} 5
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_STATE",le="0.05"} 5
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_STATE",le="0.1"} 5
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_STATE",le="0.25"} 5
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_STATE",le="0.5"} 5
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_STATE",le="1"} 5
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_STATE",le="2.5"} 5
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_STATE",le="5"} 5
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_STATE",le="10"} 5
+chaincode_shim_request_duration_bucket{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_STATE",le="+Inf"} 5
+chaincode_shim_request_duration_sum{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_STATE"} 4.5984e-05
+chaincode_shim_request_duration_count{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_STATE"} 5
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="GET_STATE_BY_RANGE",le="0.005"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="GET_STATE_BY_RANGE",le="0.01"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="GET_STATE_BY_RANGE",le="0.025"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="GET_STATE_BY_RANGE",le="0.05"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="GET_STATE_BY_RANGE",le="0.1"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="GET_STATE_BY_RANGE",le="0.25"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="GET_STATE_BY_RANGE",le="0.5"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="GET_STATE_BY_RANGE",le="1"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="GET_STATE_BY_RANGE",le="2.5"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="GET_STATE_BY_RANGE",le="5"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="GET_STATE_BY_RANGE",le="10"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="GET_STATE_BY_RANGE",le="+Inf"} 1
+chaincode_shim_request_duration_sum{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="GET_STATE_BY_RANGE"} 9.0592e-05
+chaincode_shim_request_duration_count{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="GET_STATE_BY_RANGE"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="PUT_STATE",le="0.005"} 3031
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="PUT_STATE",le="0.01"} 3031
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="PUT_STATE",le="0.025"} 3031
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="PUT_STATE",le="0.05"} 3031
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="PUT_STATE",le="0.1"} 3031
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="PUT_STATE",le="0.25"} 3031
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="PUT_STATE",le="0.5"} 3031
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="PUT_STATE",le="1"} 3031
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="PUT_STATE",le="2.5"} 3031
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="PUT_STATE",le="5"} 3031
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="PUT_STATE",le="10"} 3031
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="PUT_STATE",le="+Inf"} 3031
+chaincode_shim_request_duration_sum{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="PUT_STATE"} 0.06918105100000002
+chaincode_shim_request_duration_count{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="PUT_STATE"} 3031
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="QUERY_STATE_CLOSE",le="0.005"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="QUERY_STATE_CLOSE",le="0.01"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="QUERY_STATE_CLOSE",le="0.025"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="QUERY_STATE_CLOSE",le="0.05"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="QUERY_STATE_CLOSE",le="0.1"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="QUERY_STATE_CLOSE",le="0.25"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="QUERY_STATE_CLOSE",le="0.5"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="QUERY_STATE_CLOSE",le="1"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="QUERY_STATE_CLOSE",le="2.5"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="QUERY_STATE_CLOSE",le="5"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="QUERY_STATE_CLOSE",le="10"} 1
+chaincode_shim_request_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="QUERY_STATE_CLOSE",le="+Inf"} 1
+chaincode_shim_request_duration_sum{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="QUERY_STATE_CLOSE"} 3.746e-05
+chaincode_shim_request_duration_count{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="QUERY_STATE_CLOSE"} 1
+# HELP chaincode_shim_requests_completed The number of chaincode shim requests completed.
+# TYPE chaincode_shim_requests_completed counter
+chaincode_shim_requests_completed{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_PRIVATE_DATA_HASH"} 8
+chaincode_shim_requests_completed{chaincode="_lifecycle.syscc",channel="mychannel",success="true",type="GET_STATE"} 5
+chaincode_shim_requests_completed{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="GET_STATE_BY_RANGE"} 1
+chaincode_shim_requests_completed{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="PUT_STATE"} 3031
+chaincode_shim_requests_completed{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",success="true",type="QUERY_STATE_CLOSE"} 1
+# HELP chaincode_shim_requests_received The number of chaincode shim requests received.
+# TYPE chaincode_shim_requests_received counter
+chaincode_shim_requests_received{chaincode="_lifecycle.syscc",channel="mychannel",type="GET_PRIVATE_DATA_HASH"} 8
+chaincode_shim_requests_received{chaincode="_lifecycle.syscc",channel="mychannel",type="GET_STATE"} 5
+chaincode_shim_requests_received{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",type="GET_STATE_BY_RANGE"} 1
+chaincode_shim_requests_received{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",type="PUT_STATE"} 3031
+chaincode_shim_requests_received{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",channel="mychannel",type="QUERY_STATE_CLOSE"} 1
+# HELP dockercontroller_chaincode_container_build_duration The time to build a chaincode image in seconds.
+# TYPE dockercontroller_chaincode_container_build_duration histogram
+dockercontroller_chaincode_container_build_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",success="true",le="0.005"} 0
+dockercontroller_chaincode_container_build_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",success="true",le="0.01"} 0
+dockercontroller_chaincode_container_build_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",success="true",le="0.025"} 0
+dockercontroller_chaincode_container_build_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",success="true",le="0.05"} 0
+dockercontroller_chaincode_container_build_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",success="true",le="0.1"} 0
+dockercontroller_chaincode_container_build_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",success="true",le="0.25"} 0
+dockercontroller_chaincode_container_build_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",success="true",le="0.5"} 0
+dockercontroller_chaincode_container_build_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",success="true",le="1"} 0
+dockercontroller_chaincode_container_build_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",success="true",le="2.5"} 0
+dockercontroller_chaincode_container_build_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",success="true",le="5"} 1
+dockercontroller_chaincode_container_build_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",success="true",le="10"} 1
+dockercontroller_chaincode_container_build_duration_bucket{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",success="true",le="+Inf"} 1
+dockercontroller_chaincode_container_build_duration_sum{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",success="true"} 4.296040795
+dockercontroller_chaincode_container_build_duration_count{chaincode="fabcar_1.0:c0e69ce8f962da0013d88d083184c31d6a5a7f7bc9651b1f7ecb1d07dc438c46",success="true"} 1
+# HELP endorser_proposal_duration The time to complete a proposal.
+# TYPE endorser_proposal_duration histogram
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="",success="true",le="0.005"} 1
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="",success="true",le="0.01"} 1
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="",success="true",le="0.025"} 1
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="",success="true",le="0.05"} 1
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="",success="true",le="0.1"} 1
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="",success="true",le="0.25"} 1
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="",success="true",le="0.5"} 1
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="",success="true",le="1"} 1
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="",success="true",le="2.5"} 1
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="",success="true",le="5"} 2
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="",success="true",le="10"} 2
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="",success="true",le="+Inf"} 2
+endorser_proposal_duration_sum{chaincode="_lifecycle",channel="",success="true"} 4.300215953
+endorser_proposal_duration_count{chaincode="_lifecycle",channel="",success="true"} 2
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="mychannel",success="true",le="0.005"} 1
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="mychannel",success="true",le="0.01"} 1
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="mychannel",success="true",le="0.025"} 1
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="mychannel",success="true",le="0.05"} 1
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="mychannel",success="true",le="0.1"} 1
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="mychannel",success="true",le="0.25"} 1
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="mychannel",success="true",le="0.5"} 1
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="mychannel",success="true",le="1"} 1
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="mychannel",success="true",le="2.5"} 1
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="mychannel",success="true",le="5"} 1
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="mychannel",success="true",le="10"} 1
+endorser_proposal_duration_bucket{chaincode="_lifecycle",channel="mychannel",success="true",le="+Inf"} 1
+endorser_proposal_duration_sum{chaincode="_lifecycle",channel="mychannel",success="true"} 0.00096685
+endorser_proposal_duration_count{chaincode="_lifecycle",channel="mychannel",success="true"} 1
+endorser_proposal_duration_bucket{chaincode="cscc",channel="",success="true",le="0.005"} 0
+endorser_proposal_duration_bucket{chaincode="cscc",channel="",success="true",le="0.01"} 0
+endorser_proposal_duration_bucket{chaincode="cscc",channel="",success="true",le="0.025"} 1
+endorser_proposal_duration_bucket{chaincode="cscc",channel="",success="true",le="0.05"} 1
+endorser_proposal_duration_bucket{chaincode="cscc",channel="",success="true",le="0.1"} 1
+endorser_proposal_duration_bucket{chaincode="cscc",channel="",success="true",le="0.25"} 1
+endorser_proposal_duration_bucket{chaincode="cscc",channel="",success="true",le="0.5"} 1
+endorser_proposal_duration_bucket{chaincode="cscc",channel="",success="true",le="1"} 1
+endorser_proposal_duration_bucket{chaincode="cscc",channel="",success="true",le="2.5"} 1
+endorser_proposal_duration_bucket{chaincode="cscc",channel="",success="true",le="5"} 1
+endorser_proposal_duration_bucket{chaincode="cscc",channel="",success="true",le="10"} 1
+endorser_proposal_duration_bucket{chaincode="cscc",channel="",success="true",le="+Inf"} 1
+endorser_proposal_duration_sum{chaincode="cscc",channel="",success="true"} 0.020932767
+endorser_proposal_duration_count{chaincode="cscc",channel="",success="true"} 1
+endorser_proposal_duration_bucket{chaincode="fabcar",channel="mychannel",success="true",le="0.005"} 2008
+endorser_proposal_duration_bucket{chaincode="fabcar",channel="mychannel",success="true",le="0.01"} 2806
+endorser_proposal_duration_bucket{chaincode="fabcar",channel="mychannel",success="true",le="0.025"} 3009
+endorser_proposal_duration_bucket{chaincode="fabcar",channel="mychannel",success="true",le="0.05"} 3031
+endorser_proposal_duration_bucket{chaincode="fabcar",channel="mychannel",success="true",le="0.1"} 3032
+endorser_proposal_duration_bucket{chaincode="fabcar",channel="mychannel",success="true",le="0.25"} 3032
+endorser_proposal_duration_bucket{chaincode="fabcar",channel="mychannel",success="true",le="0.5"} 3032
+endorser_proposal_duration_bucket{chaincode="fabcar",channel="mychannel",success="true",le="1"} 3032
+endorser_proposal_duration_bucket{chaincode="fabcar",channel="mychannel",success="true",le="2.5"} 3032
+endorser_proposal_duration_bucket{chaincode="fabcar",channel="mychannel",success="true",le="5"} 3032
+endorser_proposal_duration_bucket{chaincode="fabcar",channel="mychannel",success="true",le="10"} 3032
+endorser_proposal_duration_bucket{chaincode="fabcar",channel="mychannel",success="true",le="+Inf"} 3032
+endorser_proposal_duration_sum{chaincode="fabcar",channel="mychannel",success="true"} 15.155613661999984
+endorser_proposal_duration_count{chaincode="fabcar",channel="mychannel",success="true"} 3032
+endorser_proposal_duration_bucket{chaincode="qscc",channel="",success="true",le="0.005"} 12
+endorser_proposal_duration_bucket{chaincode="qscc",channel="",success="true",le="0.01"} 12
+endorser_proposal_duration_bucket{chaincode="qscc",channel="",success="true",le="0.025"} 12
+endorser_proposal_duration_bucket{chaincode="qscc",channel="",success="true",le="0.05"} 12
+endorser_proposal_duration_bucket{chaincode="qscc",channel="",success="true",le="0.1"} 12
+endorser_proposal_duration_bucket{chaincode="qscc",channel="",success="true",le="0.25"} 12
+endorser_proposal_duration_bucket{chaincode="qscc",channel="",success="true",le="0.5"} 12
+endorser_proposal_duration_bucket{chaincode="qscc",channel="",success="true",le="1"} 12
+endorser_proposal_duration_bucket{chaincode="qscc",channel="",success="true",le="2.5"} 12
+endorser_proposal_duration_bucket{chaincode="qscc",channel="",success="true",le="5"} 12
+endorser_proposal_duration_bucket{chaincode="qscc",channel="",success="true",le="10"} 12
+endorser_proposal_duration_bucket{chaincode="qscc",channel="",success="true",le="+Inf"} 12
+endorser_proposal_duration_sum{chaincode="qscc",channel="",success="true"} 0.004216946
+endorser_proposal_duration_count{chaincode="qscc",channel="",success="true"} 12
+# HELP endorser_proposals_received The number of proposals received.
+# TYPE endorser_proposals_received counter
+endorser_proposals_received 3048
+# HELP endorser_successful_proposals The number of successful proposals.
+# TYPE endorser_successful_proposals counter
+endorser_successful_proposals 3048
+# HELP fabric_version The active version of Fabric.
+# TYPE fabric_version gauge
+fabric_version{version="2.2.15"} 1
+# HELP go_gc_duration_seconds A summary of the pause duration of garbage collection cycles.
+# TYPE go_gc_duration_seconds summary
+go_gc_duration_seconds{quantile="0"} 2.64e-05
+go_gc_duration_seconds{quantile="0.25"} 4.9424e-05
+go_gc_duration_seconds{quantile="0.5"} 8.1576e-05
+go_gc_duration_seconds{quantile="0.75"} 0.000184935
+go_gc_duration_seconds{quantile="1"} 0.00830524
+go_gc_duration_seconds_sum 0.046167874
+go_gc_duration_seconds_count 99
+# HELP go_goroutines Number of goroutines that currently exist.
+# TYPE go_goroutines gauge
+go_goroutines 159
+# HELP go_info Information about the Go environment.
+# TYPE go_info gauge
+go_info{version="go1.21.6"} 1
+# HELP go_memstats_alloc_bytes Number of bytes allocated and still in use.
+# TYPE go_memstats_alloc_bytes gauge
+go_memstats_alloc_bytes 7.4268128e+07
+# HELP go_memstats_alloc_bytes_total Total number of bytes allocated, even if freed.
+# TYPE go_memstats_alloc_bytes_total counter
+go_memstats_alloc_bytes_total 4.09496024e+09
+# HELP go_memstats_buck_hash_sys_bytes Number of bytes used by the profiling bucket hash table.
+# TYPE go_memstats_buck_hash_sys_bytes gauge
+go_memstats_buck_hash_sys_bytes 1.964978e+06
+# HELP go_memstats_frees_total Total number of frees.
+# TYPE go_memstats_frees_total counter
+go_memstats_frees_total 1.9227485e+07
+# HELP go_memstats_gc_cpu_fraction The fraction of this program's available CPU time used by the GC since the program started.
+# TYPE go_memstats_gc_cpu_fraction gauge
+go_memstats_gc_cpu_fraction 4.43366212060289e-05
+# HELP go_memstats_gc_sys_bytes Number of bytes used for garbage collection system metadata.
+# TYPE go_memstats_gc_sys_bytes gauge
+go_memstats_gc_sys_bytes 7.587424e+06
+# HELP go_memstats_heap_alloc_bytes Number of heap bytes allocated and still in use.
+# TYPE go_memstats_heap_alloc_bytes gauge
+go_memstats_heap_alloc_bytes 7.4268128e+07
+# HELP go_memstats_heap_idle_bytes Number of heap bytes waiting to be used.
+# TYPE go_memstats_heap_idle_bytes gauge
+go_memstats_heap_idle_bytes 1.22380288e+08
+# HELP go_memstats_heap_inuse_bytes Number of heap bytes that are in use.
+# TYPE go_memstats_heap_inuse_bytes gauge
+go_memstats_heap_inuse_bytes 7.7307904e+07
+# HELP go_memstats_heap_objects Number of allocated objects.
+# TYPE go_memstats_heap_objects gauge
+go_memstats_heap_objects 255293
+# HELP go_memstats_heap_released_bytes Number of heap bytes released to OS.
+# TYPE go_memstats_heap_released_bytes gauge
+go_memstats_heap_released_bytes 9.760768e+07
+# HELP go_memstats_heap_sys_bytes Number of heap bytes obtained from system.
+# TYPE go_memstats_heap_sys_bytes gauge
+go_memstats_heap_sys_bytes 1.99688192e+08
+# HELP go_memstats_last_gc_time_seconds Number of seconds since 1970 of last garbage collection.
+# TYPE go_memstats_last_gc_time_seconds gauge
+go_memstats_last_gc_time_seconds 1.774952159459733e+09
+# HELP go_memstats_lookups_total Total number of pointer lookups.
+# TYPE go_memstats_lookups_total counter
+go_memstats_lookups_total 0
+# HELP go_memstats_mallocs_total Total number of mallocs.
+# TYPE go_memstats_mallocs_total counter
+go_memstats_mallocs_total 1.9482778e+07
+# HELP go_memstats_mcache_inuse_bytes Number of bytes in use by mcache structures.
+# TYPE go_memstats_mcache_inuse_bytes gauge
+go_memstats_mcache_inuse_bytes 9600
+# HELP go_memstats_mcache_sys_bytes Number of bytes used for mcache structures obtained from system.
+# TYPE go_memstats_mcache_sys_bytes gauge
+go_memstats_mcache_sys_bytes 15600
+# HELP go_memstats_mspan_inuse_bytes Number of bytes in use by mspan structures.
+# TYPE go_memstats_mspan_inuse_bytes gauge
+go_memstats_mspan_inuse_bytes 670320
+# HELP go_memstats_mspan_sys_bytes Number of bytes used for mspan structures obtained from system.
+# TYPE go_memstats_mspan_sys_bytes gauge
+go_memstats_mspan_sys_bytes 994056
+# HELP go_memstats_next_gc_bytes Number of heap bytes when next garbage collection will take place.
+# TYPE go_memstats_next_gc_bytes gauge
+go_memstats_next_gc_bytes 1.00114304e+08
+# HELP go_memstats_other_sys_bytes Number of bytes used for other system allocations.
+# TYPE go_memstats_other_sys_bytes gauge
+go_memstats_other_sys_bytes 1.44259e+06
+# HELP go_memstats_stack_inuse_bytes Number of bytes in use by the stack allocator.
+# TYPE go_memstats_stack_inuse_bytes gauge
+go_memstats_stack_inuse_bytes 1.6384e+06
+# HELP go_memstats_stack_sys_bytes Number of bytes obtained from system for stack allocator.
+# TYPE go_memstats_stack_sys_bytes gauge
+go_memstats_stack_sys_bytes 1.6384e+06
+# HELP go_memstats_sys_bytes Number of bytes obtained from system.
+# TYPE go_memstats_sys_bytes gauge
+go_memstats_sys_bytes 2.1333124e+08
+# HELP go_threads Number of OS threads created.
+# TYPE go_threads gauge
+go_threads 15
+# HELP gossip_comm_messages_received Number of messages received
+# TYPE gossip_comm_messages_received counter
+gossip_comm_messages_received 18157
+# HELP gossip_comm_messages_sent Number of messages sent
+# TYPE gossip_comm_messages_sent counter
+gossip_comm_messages_sent 18165
+# HELP gossip_membership_total_peers_known Total known peers
+# TYPE gossip_membership_total_peers_known gauge
+gossip_membership_total_peers_known{channel="mychannel"} 3
+# HELP gossip_payload_buffer_size Size of the payload buffer
+# TYPE gossip_payload_buffer_size gauge
+gossip_payload_buffer_size{channel="mychannel"} 0
+# HELP gossip_privdata_commit_block_duration Time it takes to commit private data and the corresponding block (in seconds)
+# TYPE gossip_privdata_commit_block_duration histogram
+gossip_privdata_commit_block_duration_bucket{channel="mychannel",le="0.005"} 59
+gossip_privdata_commit_block_duration_bucket{channel="mychannel",le="0.01"} 554
+gossip_privdata_commit_block_duration_bucket{channel="mychannel",le="0.025"} 607
+gossip_privdata_commit_block_duration_bucket{channel="mychannel",le="0.05"} 609
+gossip_privdata_commit_block_duration_bucket{channel="mychannel",le="0.1"} 609
+gossip_privdata_commit_block_duration_bucket{channel="mychannel",le="0.25"} 609
+gossip_privdata_commit_block_duration_bucket{channel="mychannel",le="0.5"} 609
+gossip_privdata_commit_block_duration_bucket{channel="mychannel",le="1"} 609
+gossip_privdata_commit_block_duration_bucket{channel="mychannel",le="2.5"} 609
+gossip_privdata_commit_block_duration_bucket{channel="mychannel",le="5"} 609
+gossip_privdata_commit_block_duration_bucket{channel="mychannel",le="10"} 609
+gossip_privdata_commit_block_duration_bucket{channel="mychannel",le="+Inf"} 609
+gossip_privdata_commit_block_duration_sum{channel="mychannel"} 4.354465818999998
+gossip_privdata_commit_block_duration_count{channel="mychannel"} 609
+# HELP gossip_privdata_list_missing_duration Time it takes to list the missing private data (in seconds)
+# TYPE gossip_privdata_list_missing_duration histogram
+gossip_privdata_list_missing_duration_bucket{channel="mychannel",le="0.005"} 609
+gossip_privdata_list_missing_duration_bucket{channel="mychannel",le="0.01"} 609
+gossip_privdata_list_missing_duration_bucket{channel="mychannel",le="0.025"} 609
+gossip_privdata_list_missing_duration_bucket{channel="mychannel",le="0.05"} 609
+gossip_privdata_list_missing_duration_bucket{channel="mychannel",le="0.1"} 609
+gossip_privdata_list_missing_duration_bucket{channel="mychannel",le="0.25"} 609
+gossip_privdata_list_missing_duration_bucket{channel="mychannel",le="0.5"} 609
+gossip_privdata_list_missing_duration_bucket{channel="mychannel",le="1"} 609
+gossip_privdata_list_missing_duration_bucket{channel="mychannel",le="2.5"} 609
+gossip_privdata_list_missing_duration_bucket{channel="mychannel",le="5"} 609
+gossip_privdata_list_missing_duration_bucket{channel="mychannel",le="10"} 609
+gossip_privdata_list_missing_duration_bucket{channel="mychannel",le="+Inf"} 609
+gossip_privdata_list_missing_duration_sum{channel="mychannel"} 0.004621783000000004
+gossip_privdata_list_missing_duration_count{channel="mychannel"} 609
+# HELP gossip_privdata_purge_duration Time it takes to purge private data (in seconds)
+# TYPE gossip_privdata_purge_duration histogram
+gossip_privdata_purge_duration_bucket{channel="mychannel",le="0.005"} 609
+gossip_privdata_purge_duration_bucket{channel="mychannel",le="0.01"} 609
+gossip_privdata_purge_duration_bucket{channel="mychannel",le="0.025"} 609
+gossip_privdata_purge_duration_bucket{channel="mychannel",le="0.05"} 609
+gossip_privdata_purge_duration_bucket{channel="mychannel",le="0.1"} 609
+gossip_privdata_purge_duration_bucket{channel="mychannel",le="0.25"} 609
+gossip_privdata_purge_duration_bucket{channel="mychannel",le="0.5"} 609
+gossip_privdata_purge_duration_bucket{channel="mychannel",le="1"} 609
+gossip_privdata_purge_duration_bucket{channel="mychannel",le="2.5"} 609
+gossip_privdata_purge_duration_bucket{channel="mychannel",le="5"} 609
+gossip_privdata_purge_duration_bucket{channel="mychannel",le="10"} 609
+gossip_privdata_purge_duration_bucket{channel="mychannel",le="+Inf"} 609
+gossip_privdata_purge_duration_sum{channel="mychannel"} 0.002077017000000002
+gossip_privdata_purge_duration_count{channel="mychannel"} 609
+# HELP gossip_privdata_reconciliation_duration Time it takes for reconciliation to complete (in seconds)
+# TYPE gossip_privdata_reconciliation_duration histogram
+gossip_privdata_reconciliation_duration_bucket{channel="mychannel",le="0.005"} 43
+gossip_privdata_reconciliation_duration_bucket{channel="mychannel",le="0.01"} 43
+gossip_privdata_reconciliation_duration_bucket{channel="mychannel",le="0.025"} 43
+gossip_privdata_reconciliation_duration_bucket{channel="mychannel",le="0.05"} 43
+gossip_privdata_reconciliation_duration_bucket{channel="mychannel",le="0.1"} 43
+gossip_privdata_reconciliation_duration_bucket{channel="mychannel",le="0.25"} 43
+gossip_privdata_reconciliation_duration_bucket{channel="mychannel",le="0.5"} 43
+gossip_privdata_reconciliation_duration_bucket{channel="mychannel",le="1"} 43
+gossip_privdata_reconciliation_duration_bucket{channel="mychannel",le="2.5"} 43
+gossip_privdata_reconciliation_duration_bucket{channel="mychannel",le="5"} 43
+gossip_privdata_reconciliation_duration_bucket{channel="mychannel",le="10"} 43
+gossip_privdata_reconciliation_duration_bucket{channel="mychannel",le="+Inf"} 43
+gossip_privdata_reconciliation_duration_sum{channel="mychannel"} 0.001756799
+gossip_privdata_reconciliation_duration_count{channel="mychannel"} 43
+# HELP gossip_privdata_validation_duration Time it takes to validate a block (in seconds)
+# TYPE gossip_privdata_validation_duration histogram
+gossip_privdata_validation_duration_bucket{channel="mychannel",le="0.005"} 239
+gossip_privdata_validation_duration_bucket{channel="mychannel",le="0.01"} 513
+gossip_privdata_validation_duration_bucket{channel="mychannel",le="0.025"} 608
+gossip_privdata_validation_duration_bucket{channel="mychannel",le="0.05"} 609
+gossip_privdata_validation_duration_bucket{channel="mychannel",le="0.1"} 609
+gossip_privdata_validation_duration_bucket{channel="mychannel",le="0.25"} 609
+gossip_privdata_validation_duration_bucket{channel="mychannel",le="0.5"} 609
+gossip_privdata_validation_duration_bucket{channel="mychannel",le="1"} 609
+gossip_privdata_validation_duration_bucket{channel="mychannel",le="2.5"} 609
+gossip_privdata_validation_duration_bucket{channel="mychannel",le="5"} 609
+gossip_privdata_validation_duration_bucket{channel="mychannel",le="10"} 609
+gossip_privdata_validation_duration_bucket{channel="mychannel",le="+Inf"} 609
+gossip_privdata_validation_duration_sum{channel="mychannel"} 4.048917717999999
+gossip_privdata_validation_duration_count{channel="mychannel"} 609
+# HELP gossip_state_commit_duration Time it takes to commit a block in seconds
+# TYPE gossip_state_commit_duration histogram
+gossip_state_commit_duration_bucket{channel="mychannel",le="0.005"} 0
+gossip_state_commit_duration_bucket{channel="mychannel",le="0.01"} 104
+gossip_state_commit_duration_bucket{channel="mychannel",le="0.025"} 580
+gossip_state_commit_duration_bucket{channel="mychannel",le="0.05"} 608
+gossip_state_commit_duration_bucket{channel="mychannel",le="0.1"} 609
+gossip_state_commit_duration_bucket{channel="mychannel",le="0.25"} 609
+gossip_state_commit_duration_bucket{channel="mychannel",le="0.5"} 609
+gossip_state_commit_duration_bucket{channel="mychannel",le="1"} 609
+gossip_state_commit_duration_bucket{channel="mychannel",le="2.5"} 609
+gossip_state_commit_duration_bucket{channel="mychannel",le="5"} 609
+gossip_state_commit_duration_bucket{channel="mychannel",le="10"} 609
+gossip_state_commit_duration_bucket{channel="mychannel",le="+Inf"} 609
+gossip_state_commit_duration_sum{channel="mychannel"} 8.653892058999997
+gossip_state_commit_duration_count{channel="mychannel"} 609
+# HELP gossip_state_height Current ledger height
+# TYPE gossip_state_height gauge
+gossip_state_height{channel="mychannel"} 610
+# HELP grpc_comm_conn_closed gRPC connections closed. Open minus closed is the active number of connections.
+# TYPE grpc_comm_conn_closed counter
+grpc_comm_conn_closed 41
+# HELP grpc_comm_conn_opened gRPC connections opened. Open minus closed is the active number of connections.
+# TYPE grpc_comm_conn_opened counter
+grpc_comm_conn_opened 41
+# HELP grpc_server_unary_request_duration The time to complete a unary request.
+# TYPE grpc_server_unary_request_duration histogram
+grpc_server_unary_request_duration_bucket{code="OK",method="ProcessProposal",service="protos_Endorser",le="0.005"} 1962
+grpc_server_unary_request_duration_bucket{code="OK",method="ProcessProposal",service="protos_Endorser",le="0.01"} 2804
+grpc_server_unary_request_duration_bucket{code="OK",method="ProcessProposal",service="protos_Endorser",le="0.025"} 3024
+grpc_server_unary_request_duration_bucket{code="OK",method="ProcessProposal",service="protos_Endorser",le="0.05"} 3046
+grpc_server_unary_request_duration_bucket{code="OK",method="ProcessProposal",service="protos_Endorser",le="0.1"} 3047
+grpc_server_unary_request_duration_bucket{code="OK",method="ProcessProposal",service="protos_Endorser",le="0.25"} 3047
+grpc_server_unary_request_duration_bucket{code="OK",method="ProcessProposal",service="protos_Endorser",le="0.5"} 3047
+grpc_server_unary_request_duration_bucket{code="OK",method="ProcessProposal",service="protos_Endorser",le="1"} 3047
+grpc_server_unary_request_duration_bucket{code="OK",method="ProcessProposal",service="protos_Endorser",le="2.5"} 3047
+grpc_server_unary_request_duration_bucket{code="OK",method="ProcessProposal",service="protos_Endorser",le="5"} 3048
+grpc_server_unary_request_duration_bucket{code="OK",method="ProcessProposal",service="protos_Endorser",le="10"} 3048
+grpc_server_unary_request_duration_bucket{code="OK",method="ProcessProposal",service="protos_Endorser",le="+Inf"} 3048
+grpc_server_unary_request_duration_sum{code="OK",method="ProcessProposal",service="protos_Endorser"} 19.91735824999998
+grpc_server_unary_request_duration_count{code="OK",method="ProcessProposal",service="protos_Endorser"} 3048
+# HELP grpc_server_unary_requests_completed The number of unary requests completed.
+# TYPE grpc_server_unary_requests_completed counter
+grpc_server_unary_requests_completed{code="OK",method="ProcessProposal",service="protos_Endorser"} 3048
+# HELP grpc_server_unary_requests_received The number of unary requests received.
+# TYPE grpc_server_unary_requests_received counter
+grpc_server_unary_requests_received{method="ProcessProposal",service="protos_Endorser"} 3048
+# HELP ledger_block_processing_time Time taken in seconds for ledger block processing.
+# TYPE ledger_block_processing_time histogram
+ledger_block_processing_time_bucket{channel="mychannel",le="0.005"} 609
+ledger_block_processing_time_bucket{channel="mychannel",le="0.01"} 609
+ledger_block_processing_time_bucket{channel="mychannel",le="0.015"} 609
+ledger_block_processing_time_bucket{channel="mychannel",le="0.05"} 610
+ledger_block_processing_time_bucket{channel="mychannel",le="0.1"} 610
+ledger_block_processing_time_bucket{channel="mychannel",le="1"} 610
+ledger_block_processing_time_bucket{channel="mychannel",le="10"} 610
+ledger_block_processing_time_bucket{channel="mychannel",le="+Inf"} 610
+ledger_block_processing_time_sum{channel="mychannel"} 0.215105386
+ledger_block_processing_time_count{channel="mychannel"} 610
+# HELP ledger_blockchain_height Height of the chain in blocks.
+# TYPE ledger_blockchain_height gauge
+ledger_blockchain_height{channel="mychannel"} 610
+# HELP ledger_blockstorage_and_pvtdata_commit_time Time taken in seconds for committing the block and private data to storage.
+# TYPE ledger_blockstorage_and_pvtdata_commit_time histogram
+ledger_blockstorage_and_pvtdata_commit_time_bucket{channel="mychannel",le="0.005"} 484
+ledger_blockstorage_and_pvtdata_commit_time_bucket{channel="mychannel",le="0.01"} 590
+ledger_blockstorage_and_pvtdata_commit_time_bucket{channel="mychannel",le="0.015"} 604
+ledger_blockstorage_and_pvtdata_commit_time_bucket{channel="mychannel",le="0.05"} 610
+ledger_blockstorage_and_pvtdata_commit_time_bucket{channel="mychannel",le="0.1"} 610
+ledger_blockstorage_and_pvtdata_commit_time_bucket{channel="mychannel",le="1"} 610
+ledger_blockstorage_and_pvtdata_commit_time_bucket{channel="mychannel",le="10"} 610
+ledger_blockstorage_and_pvtdata_commit_time_bucket{channel="mychannel",le="+Inf"} 610
+ledger_blockstorage_and_pvtdata_commit_time_sum{channel="mychannel"} 2.6082560420000016
+ledger_blockstorage_and_pvtdata_commit_time_count{channel="mychannel"} 610
+# HELP ledger_blockstorage_commit_time Time taken in seconds for committing the block to storage.
+# TYPE ledger_blockstorage_commit_time histogram
+ledger_blockstorage_commit_time_bucket{channel="mychannel",le="0.005"} 578
+ledger_blockstorage_commit_time_bucket{channel="mychannel",le="0.01"} 604
+ledger_blockstorage_commit_time_bucket{channel="mychannel",le="0.015"} 608
+ledger_blockstorage_commit_time_bucket{channel="mychannel",le="0.05"} 610
+ledger_blockstorage_commit_time_bucket{channel="mychannel",le="0.1"} 610
+ledger_blockstorage_commit_time_bucket{channel="mychannel",le="1"} 610
+ledger_blockstorage_commit_time_bucket{channel="mychannel",le="10"} 610
+ledger_blockstorage_commit_time_bucket{channel="mychannel",le="+Inf"} 610
+ledger_blockstorage_commit_time_sum{channel="mychannel"} 1.6736911210000005
+ledger_blockstorage_commit_time_count{channel="mychannel"} 610
+# HELP ledger_statedb_commit_time Time taken in seconds for committing block changes to state db.
+# TYPE ledger_statedb_commit_time histogram
+ledger_statedb_commit_time_bucket{channel="mychannel",le="0.005"} 602
+ledger_statedb_commit_time_bucket{channel="mychannel",le="0.01"} 610
+ledger_statedb_commit_time_bucket{channel="mychannel",le="0.015"} 610
+ledger_statedb_commit_time_bucket{channel="mychannel",le="0.05"} 610
+ledger_statedb_commit_time_bucket{channel="mychannel",le="0.1"} 610
+ledger_statedb_commit_time_bucket{channel="mychannel",le="1"} 610
+ledger_statedb_commit_time_bucket{channel="mychannel",le="10"} 610
+ledger_statedb_commit_time_bucket{channel="mychannel",le="+Inf"} 610
+ledger_statedb_commit_time_sum{channel="mychannel"} 0.7524100440000002
+ledger_statedb_commit_time_count{channel="mychannel"} 610
+# HELP ledger_transaction_count Number of transactions processed.
+# TYPE ledger_transaction_count counter
+ledger_transaction_count{chaincode="_lifecycle:syscc",channel="mychannel",transaction_type="ENDORSER_TRANSACTION",validation_code="VALID"} 3
+ledger_transaction_count{chaincode="fabcar:1.0",channel="mychannel",transaction_type="ENDORSER_TRANSACTION",validation_code="VALID"} 6001
+ledger_transaction_count{chaincode="unknown",channel="mychannel",transaction_type="CONFIG",validation_code="VALID"} 3
+# HELP logging_entries_checked Number of log entries checked against the active logging level
+# TYPE logging_entries_checked counter
+logging_entries_checked{level="info"} 7976
+logging_entries_checked{level="warn"} 3
+# HELP logging_entries_written Number of log entries that are written
+# TYPE logging_entries_written counter
+logging_entries_written{level="info"} 7976
+logging_entries_written{level="warn"} 3
+# HELP process_cpu_seconds_total Total user and system CPU time spent in seconds.
+# TYPE process_cpu_seconds_total counter
+process_cpu_seconds_total 69.46
+# HELP process_max_fds Maximum number of open file descriptors.
+# TYPE process_max_fds gauge
+process_max_fds 1.048576e+06
+# HELP process_open_fds Number of open file descriptors.
+# TYPE process_open_fds gauge
+process_open_fds 57
+# HELP process_resident_memory_bytes Resident memory size in bytes.
+# TYPE process_resident_memory_bytes gauge
+process_resident_memory_bytes 9.961472e+07
+# HELP process_start_time_seconds Start time of the process since unix epoch in seconds.
+# TYPE process_start_time_seconds gauge
+process_start_time_seconds 1.77494960612e+09
+# HELP process_virtual_memory_bytes Virtual memory size in bytes.
+# TYPE process_virtual_memory_bytes gauge
+process_virtual_memory_bytes 1.432449024e+09
+# HELP process_virtual_memory_max_bytes Maximum amount of virtual memory available in bytes.
+# TYPE process_virtual_memory_max_bytes gauge
+process_virtual_memory_max_bytes 1.8446744073709552e+19
+# HELP promhttp_metric_handler_requests_in_flight Current number of scrapes being served.
+# TYPE promhttp_metric_handler_requests_in_flight gauge
+promhttp_metric_handler_requests_in_flight 1
+# HELP promhttp_metric_handler_requests_total Total number of scrapes by HTTP status code.
+# TYPE promhttp_metric_handler_requests_total counter
+promhttp_metric_handler_requests_total{code="200"} 113
+promhttp_metric_handler_requests_total{code="500"} 0
+promhttp_metric_handler_requests_total{code="503"} 0

@@ -1,0 +1,88 @@
+# my global config
+global:
+  scrape_interval: 15s # Set the scrape interval to every 15 seconds. Default is every 1 minute.
+  evaluation_interval: 15s # Evaluate rules every 15 seconds. The default is every 1 minute.
+  # scrape_timeout is set to the global default (10s).
+
+# Alertmanager configuration
+alerting:
+  alertmanagers:
+    - static_configs:
+        - targets:
+          # - alertmanager:9093
+
+# Load rules once and periodically evaluate them according to the global 'evaluation_interval'.
+rule_files:
+  # - "first_rules.yml"
+  # - "second_rules.yml"
+
+# A scrape configuration containing exactly one endpoint to scrape:
+# Here it's Prometheus itself.
+scrape_configs:
+  # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
+  - job_name: "prometheus"
+
+    # metrics_path defaults to '/metrics'
+    # scheme defaults to 'http'.
+     # - job_name: "Org1 Peers"
+ #   static_configs:
+ #     - targets: ["localhost:9444"]
+ # - job_name: "Org2 Peers"
+ #   static_configs:
+ #     - targets: ["localhost:9445"]
+
+    static_configs:
+      - targets: ["localhost:9090"]
+  - job_name: "orderers"
+    static_configs:
+      - targets: ["localhost:17050"]
+  - job_name: "Org1 Peers0"
+    static_configs:
+      - targets: ["localhost:17051"]
+  - job_name: "Org2 Peers0"
+    static_configs:
+      - targets: ["localhost:19051"]
+  - job_name: "Org1 Peers1"
+    static_configs:
+      - targets: ["localhost:18051"]
+  - job_name: "Org2 Peers1"
+    static_configs:
+      - targets: ["localhost:16051"]
+  - job_name: "Org1 Peers2"
+    static_configs:
+      - targets: ["localhost:11051"]
+  - job_name: "Org2 Peers2"
+    static_configs:
+      - targets: ["localhost:12051"]
+  - job_name: "Org1 Peers3"
+    static_configs:
+      - targets: ["localhost:11151"]
+  - job_name: "Org2 Peers3"
+    static_configs:
+      - targets: ["localhost:12151"]
+  - job_name: "Org1 Peers4"
+    static_configs:
+      - targets: ["localhost:11251"]
+  - job_name: "Org2 Peers4"
+    static_configs:
+      - targets: ["localhost:12251"]
+  - job_name: "Org1 Peers5"
+    static_configs:
+      - targets: ["localhost:11351"]
+  - job_name: "Org2 Peers5"
+    static_configs:
+      - targets: ["localhost:12351"]
+  - job_name: "Org1 Peers6"
+    static_configs:
+      - targets: ["localhost:11451"]
+  - job_name: "Org2 Peers6"
+    static_configs:
+      - targets: ["localhost:12451"]
+  - job_name: "Org1 Peers7"
+    static_configs:
+      - targets: ["localhost:11551"]
+  - job_name: "Org2 Peers7"
+    static_configs:
+      - targets: ["localhost:12551"]
+      
+

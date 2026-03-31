@@ -1,0 +1,42 @@
+name: Caliper Benchmarks
+version: "2.0.0"
+
+caliper:
+  blockchain: fabric
+  sutOptions:
+    discovery: false      # don't use Fabric discovery
+    mutualTls: false      # server TLS only
+    asLocalhost: true     # match your peer SANs
+
+channels:
+  - channelName: mychannel
+    contracts:
+      - id: fabcar
+
+organizations:
+  - mspid: Org1MSP
+    identities:
+      certificates:
+        - name: Admin@org1.example.com
+          clientPrivateKey:
+            path: "/home/narged13/Dokumente/Project-Performance-HLF/Extend/extend5/Orderer/HLF-4Peers/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/keystore/pr_key"
+          clientSignedCert:
+            path: "/home/narged13/Dokumente/Project-Performance-HLF/Extend/extend5/Orderer/HLF-4Peers/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/signcerts/cert.pem"
+    peers:
+      # peer0.org1
+      - endpoint: localhost:7051
+        grpcOptions:
+          ssl-target-name-override: "localhost"
+          grpc.default_authority: "localhost"
+          grpc.keepalive_time_ms: 600000
+        tlsCACerts:
+          path: "/home/narged13/Dokumente/Project-Performance-HLF/Extend/extend5/Orderer/HLF-4Peers/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt"
+      # peer1.org1
+      - endpoint: localhost:9051
+        grpcOptions:
+          ssl-target-name-override: "localhost"
+          grpc.default_authority: "localhost"
+          grpc.keepalive_time_ms: 600000
+        tlsCACerts:
+          path: "/home/narged13/Dokumente/Project-Performance-HLF/Extend/extend5/Orderer/HLF-4Peers/fabric-samples/test-network/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt"
+      # peer1.org2
